@@ -8,12 +8,14 @@ import SaludNatural from '../Pages/SaludNatural';
 import CuidadoFamiliar from '../Pages/CuidadoFamiliar';
 import Sensibilidad from '../Pages/Sensibilidad';
 import Infantil from '../Pages/Infantil';
+import Menu from '../Pages/Menu';
 
 const Routers = () => {
     return (
         <Router>
             <Switch>
                 <Route exact path={RoutersLinks.home} component={() => <Home></Home>}/>
+                <Route exact path={RoutersLinks.menu} component={() => <Menu></Menu>}/>
                 <Route exact path={RoutersLinks.multibeneficios} component={() => <Multibeneficios></Multibeneficios>}></Route>
                 <Route exact path={RoutersLinks.blanqueamiento} component={() => <Blanqueamiento></Blanqueamiento>}></Route>
                 <Route exact path={RoutersLinks.saludNatural} component={() => <SaludNatural></SaludNatural>}></Route>
