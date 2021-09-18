@@ -12,6 +12,10 @@ import btnQuiz from "../img/Listones/quiz.png";
 import infantil from "../img/Listones/infantil.svg";
 import btnInfantil from "../img/Listones/infantil.png";
 
+// Producto Ideal
+
+// Menu
+
 import Intro_Blanqueamiento from '../img/Listones/Intro_Blanqueamiento.png';
 import ListonBlanqueamiento from '../img/Listones/ListonBlanqueamiento.svg';
 import Intro_Familiar from '../img/Listones/Intro_Familiar.png';
@@ -24,6 +28,10 @@ import Intro_Total from '../img/Listones/Intro_Total.png';
 import ListonTotal from '../img/Listones/ListonMultibeneficios.svg';
 import Intro_Sensibilidad from '../img/Listones/Intro_Sensibilidad.png';
 import ListonSensibilidad from '../img/Listones/ListonSensibilidad.svg';
+
+// Multibeneficios
+
+
 
 export const Home = {
     "LogoColgate": LogoColgate,
