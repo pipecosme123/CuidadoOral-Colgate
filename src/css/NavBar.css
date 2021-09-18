@@ -5,8 +5,9 @@
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    position: absolute;
+    position: fixed;
     top: 0px;
+    z-index: 100000000;
 }
 
 .NavBar a{

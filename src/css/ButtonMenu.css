@@ -1,0 +1,49 @@
+.ButtonMenu {
+    width: 280px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.ButtonMenu .fondoListon {
+    width: 18.75em;
+    position: absolute;
+    left: 0px;
+    top: 12.8em;
+}
+
+.ButtonMenu .btnListon {
+    width: 19em;
+    margin-left: -0.2em;
+    top: 0px;
+}
+
+.ButtonMenu .nombreListon {
+    width: 18.75em;
+    position: absolute;
+    left: 0px;
+    top: 15em;
+}
+
+.ButtonMenu.self {
+    margin-top: 28em;
+}
+
+.ButtonMenu.scale {
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width: 1440px) {
+    /* .ButtonMenu {
+        top: 4em;
+        left: -9.375em;
+        margin: 0 1em;
+    }
+
+    .ButtonMenu.self {
+        margin-top: 21em;
+    } */
+
+    .ButtonMenu.scale {
+        transform: scale(0.6);
+    }
+}

@@ -1,5 +1,6 @@
 export const RoutersLinks = {
     "home": "/",
+    "menu": "/Menu",
     "multibeneficios": "/Multibeneficios",
     "blanqueamiento": "/Blanqueamiento",
     "saludNatural": "/SaludNatural",

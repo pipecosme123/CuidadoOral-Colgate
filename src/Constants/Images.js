@@ -29,3 +29,51 @@ export const Home = {
     "LogoColgate": LogoColgate,
     "Menu": Menu,
 }
+
+export const Botones_Listones = {
+    "FondoListon": FondoListon,
+    "MejoraTuSonrisa": {
+        "liston": mejoraTuSonrisa,
+        "btn": btnMejoraTuSonrisa
+    },
+    "ProductoIdeal": {
+        "liston": productoIdeal,
+        "btn": btnProductoIdeal,
+    },
+    "Quiz": {
+        "liston": quiz,
+        "btn": btnQuiz,
+    },
+    "seccionInfantil": {
+        "liston": infantil,
+        "btn": btnInfantil,
+    },
+    "Blanqueamiento": {
+        "liston": ListonBlanqueamiento,
+        "btn": Intro_Blanqueamiento,
+    },
+    "Familiar": {
+        "liston": ListonFamiliar,
+        "btn": Intro_Familiar,
+    },
+    "Infantil": {
+        "liston": ListonInfantil,
+        "btn": Intro_Infantil,
+    },
+    "Natural": {
+        "liston": ListonNatural,
+        "btn": Intro_Natural,
+    },
+    "Total": {
+        "liston": ListonTotal,
+        "btn": Intro_Total,
+    },
+    "Sensibilidad": {
+        "liston": ListonSensibilidad,
+        "btn": Intro_Sensibilidad,
+    },
+}
+
+
+
+

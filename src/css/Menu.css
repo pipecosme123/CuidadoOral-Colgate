@@ -1,0 +1,9 @@
+.menuProductoIdeal{
+    background: url('../img/Fondos/Fondo1.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
