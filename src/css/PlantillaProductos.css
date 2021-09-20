@@ -1,0 +1,80 @@
+.pProductos{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.plantillaProductos{
+    width: 92vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 5em;
+    text-align: left;
+    background: url('../img/Fondos/Fondo2.jpg');
+    background-attachment: fixed;
+
+}
+
+.plantillaProductos .imgProduvto{
+    width: 40vw;
+}
+
+.plantillaProductos .informacionProducto{
+    width: 60vw;
+    color: var(--color-Text);
+    padding: 0 3em;
+}
+
+.informacionProducto .secTitulo{
+    
+}
+
+.informacionProducto .secTitulo h3, .informacionProducto h3.tituloSec{
+    font-family: "BoldItalic";
+    color: var(--color-Cologate);
+    font-size: 3em;
+    margin: 1px 0;
+}
+
+.informacionProducto .secTitulo h1{
+    font-family: "Light";
+    font-size: 4em;
+    margin: 1px 0;
+}
+
+.informacionProducto .secTitulo h3.subTitulo{
+    font-family: "Light";
+    color: var(--color-Cologate);
+    font-size: 2em;
+    margin: 1px 0;
+    position: relative;
+    bottom: 20px;
+}
+
+.informacionProducto p.informacion{
+    font-size: 1.5em;
+    font-family: "Regular";
+    text-align: left;
+}
+
+.informacionProducto h3.tituloSec{
+    font-size: 2em;
+}
+
+.informacionProducto .seccionBeneficios{
+    background: #f3f3f3;
+    padding: 1em 0;
+    font-family: "Italic";
+    font-size: 1.8em;
+}
+
+/**/
+
+.pMenu{
+    position: sticky;
+    top: 40%;
+    /* bottom: 0; */
+    transform: scale(0.5);
+}

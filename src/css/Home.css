@@ -70,7 +70,7 @@
 .pMenu {
   min-width: var(--max-width);
   height: var(--max-height);
-  background: url('../img/Fondos/Fondo1.jpg');
+  /* background: url('../img/Fondos/Fondo1.jpg'); */
   position: relative;
 }
 
