@@ -1,3 +1,7 @@
+.SliderProductos{
+    display: flex;
+}
+
 .pProductos{
     width: auto;
     display: flex;
@@ -14,67 +18,90 @@
     text-align: left;
     background: url('../img/Fondos/Fondo2.jpg');
     background-attachment: fixed;
-
 }
 
 .plantillaProductos .imgProduvto{
     width: 40vw;
+    height: 70vh;
 }
 
 .plantillaProductos .informacionProducto{
     width: 60vw;
+    height: 70vh;
     color: var(--color-Text);
     padding: 0 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .informacionProducto .secTitulo{
-    
+    justify-self: start;
 }
 
-.informacionProducto .secTitulo h3, .informacionProducto h3.tituloSec{
+.informacionProducto .secTitulo h3{
     font-family: "BoldItalic";
     color: var(--color-Cologate);
-    font-size: 3em;
+    font-size: 1.7em;
     margin: 1px 0;
 }
 
 .informacionProducto .secTitulo h1{
     font-family: "Light";
-    font-size: 4em;
+    font-size: 3em;
     margin: 1px 0;
 }
 
 .informacionProducto .secTitulo h3.subTitulo{
-    font-family: "Light";
+    font-family: "ExtraLightItalic";
     color: var(--color-Cologate);
-    font-size: 2em;
+    font-size: 1.7em;
     margin: 1px 0;
     position: relative;
     bottom: 20px;
 }
 
 .informacionProducto p.informacion{
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: "Regular";
     text-align: left;
 }
 
 .informacionProducto h3.tituloSec{
-    font-size: 2em;
+    font-size: 1.7em;
+    font-family: "HeavyItalic";
+    color: var(--color-Cologate);
 }
 
 .informacionProducto .seccionBeneficios{
     background: #f3f3f3;
-    padding: 1em 0;
+    padding: 0.5em 2em;
     font-family: "Italic";
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
+
+.informacionProducto .seccionBeneficios ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.informacionProducto .seccionBeneficios li {
+    background: url('../img/Listones/star.svg') no-repeat left top;
+    background-size: 55px 35px;
+    height: auto;
+    padding-left: 50px;
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 1em;
+}
+
 
 /**/
 
-.pMenu{
+/* .pMenu{
     position: sticky;
     top: 40%;
-    /* bottom: 0; */
+    bottom: 0;
     transform: scale(0.5);
-}
+} */

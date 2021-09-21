@@ -1,0 +1,65 @@
+.Footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    /* transform: scale(0.8); */
+}
+
+.Footer .footerBotones{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7em;
+}
+
+.Footer .footerBotones button{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    border: 0px;
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.Footer .footerBotones button svg{
+    /* transform: scale(3); 969696 */
+    width: 4em;
+    height: 4em;
+    color: #e1e1e1;
+}
+
+.Footer .footerBotones p{
+    font-family: "Light";
+    color: #969696;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.Footer .footerMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.Footer .footerMenu a.menuOpciones{
+    width: 6em;
+    height: 5em;
+    margin: 2em;
+    text-decoration: none;
+}
+
+.Footer .footerMenu a img{
+    width: 5em;
+    height: 5em;
+}
+
+.Footer .footerMenu a p{
+    text-transform: uppercase;
+    background: #d2010d;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 0.5em;
+}
