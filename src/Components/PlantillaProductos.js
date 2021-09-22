@@ -28,7 +28,7 @@ const PlantillaProductos = ({ data }) => {
                   ))}
                 </ul>
               </div>
-              <span>{prod.extra}</span>
+              <span className="pExtra">{prod.extra}</span>
             </div>
           </div>
         ))}

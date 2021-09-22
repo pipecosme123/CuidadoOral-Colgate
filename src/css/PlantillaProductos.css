@@ -1,14 +1,15 @@
-.SliderProductos{
+.SliderProductos {
     display: flex;
 }
 
-.pProductos{
+.pProductos {
     width: auto;
     display: flex;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
-.plantillaProductos{
+.plantillaProductos {
     width: 92vw;
     height: 100vh;
     margin: auto;
@@ -20,12 +21,12 @@
     background-attachment: fixed;
 }
 
-.plantillaProductos .imgProduvto{
+.plantillaProductos .imgProduvto {
     width: 40vw;
     height: 70vh;
 }
 
-.plantillaProductos .informacionProducto{
+.plantillaProductos .informacionProducto {
     width: 60vw;
     height: 70vh;
     color: var(--color-Text);
@@ -35,24 +36,24 @@
     justify-content: center;
 }
 
-.informacionProducto .secTitulo{
+.informacionProducto .secTitulo {
     justify-self: start;
 }
 
-.informacionProducto .secTitulo h3{
+.informacionProducto .secTitulo h3 {
     font-family: "BoldItalic";
     color: var(--color-Cologate);
     font-size: 1.7em;
     margin: 1px 0;
 }
 
-.informacionProducto .secTitulo h1{
+.informacionProducto .secTitulo h1 {
     font-family: "Light";
     font-size: 3em;
     margin: 1px 0;
 }
 
-.informacionProducto .secTitulo h3.subTitulo{
+.informacionProducto .secTitulo h3.subTitulo {
     font-family: "ExtraLightItalic";
     color: var(--color-Cologate);
     font-size: 1.7em;
@@ -61,23 +62,27 @@
     bottom: 20px;
 }
 
-.informacionProducto p.informacion{
+.informacionProducto p.informacion {
     font-size: 1.4em;
     font-family: "Regular";
     text-align: left;
+    margin: 0px;
 }
 
-.informacionProducto h3.tituloSec{
+.informacionProducto h3.tituloSec {
     font-size: 1.7em;
     font-family: "HeavyItalic";
     color: var(--color-Cologate);
+    margin-bottom: 0px;
 }
 
-.informacionProducto .seccionBeneficios{
-    background: #f3f3f3;
+.informacionProducto .seccionBeneficios {
+    background: rgb(243, 243, 243);
+    background: linear-gradient(90deg, rgba(243, 243, 243, 1) 60%, rgba(0, 212, 255, 0) 100%);
     padding: 0.5em 2em;
     font-family: "Italic";
     font-size: 1.3em;
+    border-radius: 10px;
 }
 
 .informacionProducto .seccionBeneficios ul {
@@ -96,12 +101,10 @@
     font-size: 1em;
 }
 
+.informacionProducto .seccionBeneficios li p {
+    margin: 2px 0;
+}
 
-/**/
-
-/* .pMenu{
-    position: sticky;
-    top: 40%;
-    bottom: 0;
-    transform: scale(0.5);
-} */
+.informacionProducto span.pExtra{
+    margin-left: 2em;
+}

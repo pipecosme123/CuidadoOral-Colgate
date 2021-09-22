@@ -1,0 +1,38 @@
+@import url('./Posiciones.css');
+
+.menuCircular {
+    width: auto;
+    background: url('../img/Fondos/Fondo2.jpg');
+    background-attachment: fixed;
+}
+
+.menuCircular .text{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: scale(2);
+}
+
+.menuCircular .text h3, .menuCircular .text h1{
+    font-family: "BoldItalic";
+    color: var(--color-2Text);
+    margin: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 2em;
+}
+
+.mcImg a img {
+    width: 220px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    scroll-behavior: smooth;
+}

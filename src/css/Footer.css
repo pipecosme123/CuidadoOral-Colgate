@@ -14,11 +14,20 @@
     padding: 0 7em;
 }
 
+.Footer .footerBotones.disable{
+    opacity: 30%;
+}
+
+.noVisible{
+    display: none;
+}
+
 .Footer .footerBotones button{
     width: 6em;
     height: 6em;
     border-radius: 50%;
-    border: 0px;
+    border: none;
+    outline:none;
     padding: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #fff;
@@ -62,4 +71,8 @@
     padding: 0.5em;
     border-radius: 1em;
     font-size: 0.5em;
+}
+
+.Footer .footerMenu a.noActivate{
+    filter: grayscale(80%) opacity(25%);
 }

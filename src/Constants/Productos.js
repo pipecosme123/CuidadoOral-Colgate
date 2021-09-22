@@ -2,6 +2,7 @@ import { imgMultibeneficios, imgBlanqueamiento, imgNatural, imgFamiliar, imgSens
 
 
 export const Multibeneficios = {
+  "footer": "Multibeneficios",
   "InformacionCabecera": {
     img: imgMultibeneficios.cabecera,
     tituloSuperior: "Colgate",
@@ -28,6 +29,7 @@ export const Multibeneficios = {
     ],
     extra: ""
   },
+  "ImagenesMenuBotones": imgMultibeneficios.botones,
   "InformacionProductos": [
     {
       id: 1,
@@ -194,6 +196,7 @@ export const Multibeneficios = {
 }
 
 export const Blanqueamiento = {
+  "footer": "Blanqueamiento",
   "InformacionCabecera": {
     img: imgBlanqueamiento.cabecera,
     tituloSuperior: "Colgate",
@@ -210,6 +213,7 @@ export const Blanqueamiento = {
     extra: ""
 
   },
+  "ImagenesMenuBotones": imgBlanqueamiento.botones,
   "InformacionProductos": [
     {
       id: 1,
@@ -335,6 +339,7 @@ export const Blanqueamiento = {
 }
 
 export const Natural = {
+  "footer": "Natural",
   "InformacionCabecera": {
     img: imgNatural.cabecera,
     tituloSuperior: "Colgate",
@@ -349,6 +354,7 @@ export const Natural = {
     ],
     extra: ""
   },
+  "ImagenesMenuBotones": imgNatural.botones,
   "InformacionProductos": [
     {
       id: 1,
@@ -400,8 +406,25 @@ export const Natural = {
       extra: "*Con cepillado regular"
     },
     {
-      id: 4,
+      id: 5,
       img: imgNatural.producto.prodNatural_04,
+      tituloSuperior: "Colgate Naturals Extracts",
+      prefijo: "",
+      nombre: "CÚRCUMA & HIERBABUENA",
+      sufijo: "",
+      subTitulo: "",
+      informacion: "Combinamos la frescura de la yerbabuena con el sabor sorprendente de la cúrcuma en el nuevo lanzamiento de Colgate Naturals Extracts Cúrcuma y Yerbabuena.",
+      tituloSec: "",
+      beneficios: [
+        { beneficio: "Su fórmula desarrollada con la más alta tecnología ayuda a eliminar de modo natural las bacterias en tu boca manteniendo el aliento fresco por mucho más tiempo." },
+        { beneficio: "Sorpréndete con esa nueva pasta de dientes y siente una experiencia única" },
+      ],
+      extra: ""
+    },
+
+    {
+      id: 4,
+      img: imgNatural.producto.prodNatural_05,
       tituloSuperior: "Colgate",
       prefijo: "",
       nombre: "ZERO MENTA",
@@ -418,38 +441,22 @@ export const Natural = {
       extra: ""
     },
     {
-      id: 5,
-      img: imgNatural.producto.prodNatural_06,
-      tituloSuperior: "Colgate Naturals Extracts",
-      prefijo: "",
-      nombre: "CÚRCUMA & HIERBABUENA",
-      sufijo: "",
-      subTitulo: "",
-      informacion: "Combinamos la frescura de la yerbabuena con el sabor sorprendente de la cúrcuma en el nuevo lanzamiento de Colgate Naturals Extracts Cúrcuma y Yerbabuena.",
-      tituloSec: "",
-      beneficios: [
-        { beneficio: "Su fórmula desarrollada con la más alta tecnología ayuda a eliminar de modo natural las bacterias en tu boca manteniendo el aliento fresco por mucho más tiempo." },
-        { beneficio: "Sorpréndete con esa nueva pasta de dientes y siente una experiencia única" },
-      ],
-      extra: ""
-    },
-    {
       id: 6,
-      img: imgNatural.producto.prodNatural_05,
+      img: imgNatural.producto.prodNatural_06,
       tituloSuperior: "Colgate",
       prefijo: "",
       nombre: "ZERO HIERBABUENA",
       sufijo: "",
       subTitulo: "",
       informacion: "Siéntete confiado y seguro dejando tu boca saludable con la crema dental Colgate Zero Hierbabuena con sabor a 100% natural.",
-      tituloSec: "",
+      tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Con 0% de saborizantes, endulzantes, conservadores y colorantes artificiales. Vegana y libre de gluten." },
         { beneficio: "Sabor natural menta para un aliento fresco y duradero." },
         { beneficio: "Brinda protección a tus dientes y una limpieza profunda con la fórmula de la pasta de dientes en gel transparente con sabor a menta." },
         { beneficio: "Ideal para una sonrisa perfecta con aliento fresco y duradero todos los días, previniendo las caries en los dientes." },
       ],
-      extra: "BENEFICIOS:"
+      extra: ""
     },
     {
       id: 7,
@@ -491,6 +498,7 @@ export const Natural = {
 }
 
 export const Familiar = {
+  "footer": "Familiar",
   "InformacionCabecera": {
     img: imgFamiliar.cabecera,
     tituloSuperior: "Colgate",
@@ -507,6 +515,7 @@ export const Familiar = {
     ],
     extra: ""
   },
+  "ImagenesMenuBotones": imgFamiliar.botones,
   "InformacionProductos": [
     {
       id: 1,
@@ -609,6 +618,7 @@ export const Familiar = {
 }
 
 export const Sensibilidad = {
+  "footer": "Sensibilidad",
   "InformacionCabecera": {
     img: imgSensibilidad.cabecera,
     tituloSuperior: "Colgate Sensitive",
@@ -625,6 +635,7 @@ export const Sensibilidad = {
     ],
     extra: ""
   },
+  "ImagenesMenuBotones": imgSensibilidad.botones,
   "InformacionProductos": [
     {
       id: 1,
@@ -750,6 +761,7 @@ export const Sensibilidad = {
 }
 
 export const Infantil = {
+  "footer": "Infantil",
   "InformacionCabecera": {
     img: imgInfantil.cabecera,
     tituloSuperior: "Colgate",
@@ -766,6 +778,7 @@ export const Infantil = {
     ],
     extra: ""
   },
+  "ImagenesMenuBotones": imgInfantil.botones,
   "InformacionProductos": [
     {
       id: 1,

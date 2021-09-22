@@ -1,0 +1,188 @@
+/* Linea de 9 productos */
+
+.container.l9 div:nth-child(2) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 20em;
+}
+
+.container.l9 div:nth-child(3) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 10em;
+}
+
+.container.l9 div:nth-child(4) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 25em;
+}
+
+.container.l9 div:nth-child(5) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 50em;
+}
+
+.container.l9 div:nth-child(6) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 75em;
+}
+
+.container.l9 div:nth-child(7) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 90em;
+}
+
+.container.l9 div:nth-child(8) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 80em;
+}
+
+.container.l9 div:nth-child(9) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 60em;
+}
+
+.container.l9 div:nth-child(10) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 40em;
+}
+
+/* Linea de 8 productos */
+
+.container.l8 div:nth-child(2) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 25em;
+}
+
+.container.l8 div:nth-child(3) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 10em;
+}
+
+.container.l8 div:nth-child(4) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 25em;
+}
+
+.container.l8 div:nth-child(5) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 50em;
+}
+
+.container.l8 div:nth-child(6) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 75em;
+}
+
+.container.l8 div:nth-child(7) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 90em;
+}
+
+.container.l8 div:nth-child(8) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 50em;
+}
+
+.container.l8 div:nth-child(9) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 75em;
+}
+
+
+/* Linea de 7 productos */
+
+.container.l7 div:nth-child(2) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 20em;
+}
+
+.container.l7 div:nth-child(3) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 10em;
+}
+
+.container.l7 div:nth-child(4) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 25em;
+}
+
+.container.l7 div:nth-child(5) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 50em;
+}
+
+.container.l7 div:nth-child(6) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 75em;
+}
+
+.container.l7 div:nth-child(7) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 90em;
+}
+
+.container.l7 div:nth-child(8) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 80em;
+}
+
+/* Linea de 6 productos */
+
+.container.l6 div:nth-child(2) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 35em;
+}
+
+.container.l6 div:nth-child(3) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 10em;
+}
+
+.container.l6 div:nth-child(4) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 35em;
+}
+
+.container.l6 div:nth-child(5) {
+    position: absolute;
+    top: var(--Tercera-Fila-Menu);
+    left: 65em;
+}
+
+.container.l6 div:nth-child(6) {
+    position: absolute;
+    top: var(--Segunda-Fila-Menu);
+    left: 90em;
+}
+
+.container.l6 div:nth-child(7) {
+    position: absolute;
+    top: var(--Primera-Fila-Menu);
+    left: 65em;
+}
