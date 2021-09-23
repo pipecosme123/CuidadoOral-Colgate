@@ -48,6 +48,8 @@
   border: 0;
   border-radius: 50px 0 50px 50px;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .animate {
@@ -70,7 +72,7 @@
 .pMenu {
   min-width: var(--max-width);
   height: var(--max-height);
-  /* background: url('../img/Fondos/Fondo1.jpg'); */
+  background: url('../img/Fondos/Fondo1.jpg');
   position: relative;
 }
 
@@ -89,7 +91,7 @@
   height: 120px;
 }
 
-.pMenu .titleMenu h1.op{
+.pMenu .titleMenu h1.op {
   font-size: 5em;
 }
 
@@ -102,5 +104,9 @@
 .ButtonsMenu {
   display: flex;
   justify-content: space-around;
-  padding: 0 3em;
+  padding-top: 10em;
+}
+
+.ButtonsMenu a{
+  height: min-content;
 }

@@ -3,6 +3,17 @@ import React from 'react';
 import '../css/PlantillaMenuProductos.css';
 
 const PlantillaMenuProductos = ({ data }) => {
+
+  const scrollToProduct = (id) => {
+
+    let positionX = window.screen.width * id;
+    window.scroll({
+      left: positionX,
+      behavior: 'smooth'
+    });
+
+  }
+
   return (
     <div className="menuCircular">
 
@@ -12,10 +23,10 @@ const PlantillaMenuProductos = ({ data }) => {
           <h1>UNA OPCIÓN</h1>
         </div>
         {data.map((img, index) => (
-          <div key={index} className={`mcImg animate`}>
-            <a href={`#${index + 1}`}>
+          <div key={index} className={`mcImg animate`} onClick={() => scrollToProduct(index + 2)}>
+            {/* <a href={`##`}> */}
               <img src={img.btn} alt="" />
-            </a>
+            {/* </a> */}
           </div>
         ))}
       </div>

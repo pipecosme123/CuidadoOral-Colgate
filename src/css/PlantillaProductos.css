@@ -98,7 +98,7 @@
     padding-left: 50px;
     text-align: justify;
     margin: 15px 0;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .informacionProducto .seccionBeneficios li p {
@@ -107,4 +107,35 @@
 
 .informacionProducto span.pExtra{
     margin-left: 2em;
+}
+
+.plantillaProductos.plantillaImagenes{
+    justify-content: center;
+}
+
+.plantillaProductos .pImagenes{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plantillaProductos .pImagenes h3{
+    margin: 0;
+    font-family: "Bold";
+    font-size: 2em;
+    color: var(--color-Cologate);
+    text-align: left !important;
+}
+
+.plantillaProductos .pImagenes h1{
+    margin: 0;
+    font-family: "Light";
+    font-size: 2em;
+    color: var(--color-Text);
+    text-align: left !important;
+}
+
+.noVisible{
+    display: none;
 }

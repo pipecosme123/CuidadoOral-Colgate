@@ -13,7 +13,6 @@ const Home = () => {
     });
   }
 
-
   return (
     <div className="pHome">
       <div className="Home">
@@ -32,10 +31,10 @@ const Home = () => {
           <h1 className="op">OPCIÓN</h1>
         </div>
         <div className="ButtonsMenu" id="menu">
-          <a href={RoutersLinks.menu}><ButtonMenu imgData={Botones_Listones.ProductoIdeal} self="none" /></a>
-          <a href="##"><ButtonMenu imgData={Botones_Listones.MejoraTuSonrisa} self="self" /></a>
-          <a href="##"><ButtonMenu imgData={Botones_Listones.seccionInfantil} self="self" /></a>
-          <a href="##"><ButtonMenu imgData={Botones_Listones.Quiz} self="none" /></a>
+          <a href={RoutersLinks.menu}><ButtonMenu imgData={Botones_Listones.ProductoIdeal} self="scale" /></a>
+          <a href="##"><ButtonMenu imgData={Botones_Listones.MejoraTuSonrisa} self="self scale" /></a>
+          <a href="##"><ButtonMenu imgData={Botones_Listones.seccionInfantil} self="self scale" /></a>
+          <a href="##"><ButtonMenu imgData={Botones_Listones.Quiz} self="scale" /></a>
         </div>
       </div>
     </div>

@@ -298,9 +298,9 @@ export const imgSensibilidad = {
         "prodSensibilidad_05": prodSensibilidad_05,
         "prodSensibilidad_06": prodSensibilidad_06,
         "prodSensibilidad": {
-            "pprodSensibilidad_071": prodSensibilidad_071,
-            "pprodSensibilidad_072": prodSensibilidad_072,
-            "pprodSensibilidad_073": prodSensibilidad_073,
+            "prodSensibilidad_071": prodSensibilidad_071,
+            "prodSensibilidad_072": prodSensibilidad_072,
+            "prodSensibilidad_073": prodSensibilidad_073,
         },
     }
 }
@@ -321,10 +321,10 @@ export const imgInfantil = {
         "prodInfantil_03": prodInfantil_03,
         "prodInfantil_04": prodInfantil_04,
         "prodInfantil": {
-            "pprodInfantil_051": prodInfantil_051,
-            "pprodInfantil_052": prodInfantil_052,
-            "pprodInfantil_053": prodInfantil_053,
-            "pprodInfantil_054": prodInfantil_054
+            "prodInfantil_051": prodInfantil_051,
+            "prodInfantil_052": prodInfantil_052,
+            "prodInfantil_053": prodInfantil_053,
+            "prodInfantil_054": prodInfantil_054
         },
         "prodInfantil_06": prodInfantil_06,
     }

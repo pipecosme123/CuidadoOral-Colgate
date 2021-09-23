@@ -17,14 +17,14 @@ const Footer = ({ limite, activate }) => {
   const Retroceder = () => {
 
     let positionX = ((window.scrollX / rest).toFixed() - 1) * rest;
-    console.log(positionX, (window.scrollX / rest).toFixed() , "Retroceder")
+    // console.log(positionX, (window.scrollX / rest).toFixed() , "Retroceder")
 
     window.scroll({
       left: positionX,
       behavior: 'smooth'
     });
 
-    if (positionScroll < 3840) {
+    if (positionScroll < 1920) {
       setPositionScroll(0);
       setBtnRetroceder("disable");
     } else {
@@ -37,7 +37,7 @@ const Footer = ({ limite, activate }) => {
   const Avanzar = () => {
 
     let positionX = (window.scrollX / rest + 1).toFixed() * rest;
-    console.log(positionX, (window.scrollX / rest).toFixed() * rest , "Avanzar" ,limit)
+    // console.log(positionX, (window.scrollX / rest).toFixed() * rest , "Avanzar" ,limit)
 
     window.scroll({
       left: positionX,

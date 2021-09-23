@@ -18,10 +18,6 @@
     opacity: 30%;
 }
 
-.noVisible{
-    display: none;
-}
-
 .Footer .footerBotones button{
     width: 6em;
     height: 6em;
@@ -33,11 +29,19 @@
     background: #fff;
 }
 
+.Footer .footerBotones button:active{
+    background: var(--color-Cologate);
+}
+
 .Footer .footerBotones button svg{
     /* transform: scale(3); 969696 */
     width: 4em;
     height: 4em;
     color: #e1e1e1;
+}
+
+.Footer .footerBotones button svg:active{
+    color: #fff;
 }
 
 .Footer .footerBotones p{

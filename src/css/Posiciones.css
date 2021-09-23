@@ -95,13 +95,13 @@
 .container.l8 div:nth-child(8) {
     position: absolute;
     top: var(--Primera-Fila-Menu);
-    left: 50em;
+    left: 75em;
 }
 
 .container.l8 div:nth-child(9) {
     position: absolute;
     top: var(--Primera-Fila-Menu);
-    left: 75em;
+    left: 50em;
 }
 
 
