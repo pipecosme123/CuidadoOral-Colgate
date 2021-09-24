@@ -1,4 +1,4 @@
-.Footer{
+.Footer {
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -8,67 +8,67 @@
     /* transform: scale(0.8); */
 }
 
-.Footer .footerBotones{
+.Footer .footerBotones {
     display: flex;
     justify-content: space-between;
     padding: 0 7em;
 }
 
-.Footer .footerBotones.disable{
+.Footer .footerBotones.disable {
     opacity: 30%;
 }
 
-.Footer .footerBotones button{
+.Footer .footerBotones button {
     width: 6em;
     height: 6em;
     border-radius: 50%;
     border: none;
-    outline:none;
+    outline: none;
     padding: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #fff;
 }
 
-.Footer .footerBotones button:active{
+.Footer .footerBotones button:active {
     background: var(--color-Cologate);
 }
 
-.Footer .footerBotones button svg{
+.Footer .footerBotones button svg {
     /* transform: scale(3); 969696 */
     width: 4em;
     height: 4em;
     color: #e1e1e1;
 }
 
-.Footer .footerBotones button svg:active{
+.Footer .footerBotones button svg:active {
     color: #fff;
 }
 
-.Footer .footerBotones p{
+.Footer .footerBotones p {
     font-family: "Light";
     color: #969696;
     font-size: 1.2em;
     margin: 0;
 }
 
-.Footer .footerMenu{
+.Footer .footerMenu {
     display: flex;
     justify-content: center;
 }
 
-.Footer .footerMenu a.menuOpciones{
+.Footer .footerMenu a.menuOpciones {
     width: 6em;
     height: 5em;
     margin: 2em;
     text-decoration: none;
 }
 
-.Footer .footerMenu a img{
+.Footer .footerMenu a img {
     width: 5em;
     height: 5em;
 }
 
-.Footer .footerMenu a p{
+.Footer .footerMenu a p {
     text-transform: uppercase;
     background: #d2010d;
     color: #fff;
@@ -77,6 +77,10 @@
     font-size: 0.5em;
 }
 
-.Footer .footerMenu a.noActivate{
+.Footer .footerMenu a.noActivate {
     filter: grayscale(80%) opacity(25%);
+}
+
+.Footer .footerMenu a.noActivate:active{
+    filter: grayscale(0%) opacity(100%);
 }

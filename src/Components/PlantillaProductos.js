@@ -3,7 +3,10 @@ import '../css/PlantillaProductos.css';
 
 const PlantillaProductos = ({ data }) => {
 
-
+  function capitalize(word) {
+    return word[0].toUpperCase() + word.slice(1);
+  }
+  
   return (
     <div>
       <div className="pProductos">
@@ -24,13 +27,13 @@ const PlantillaProductos = ({ data }) => {
                     <h4>{prod.sufijo}</h4>
                     <h3 className="subTitulo">{prod.subTitulo}</h3>
                   </div>
-                  <p className="informacion">{prod.informacion}</p>
-                  <h3 className="tituloSec">{prod.tituloSec.toUpperCase()}</h3>
+                  <p className={ data.informacion !== "" ? "informacion" : "noVisible"}>{data.informacion}</p>
+                  <h3 className={ data.tituloSec !== "" ? "tituloSec" : "noVisible"}>{prod.tituloSec.toUpperCase()}</h3>
                   <div className="seccionBeneficios">
                     <ul>
                       {prod.beneficios.map((bene, index) => (
                         <li key={index}>
-                          <p>{bene.beneficio}</p>
+                          <p>{capitalize(bene.beneficio)}</p>
                         </li>
                       ))}
                     </ul>

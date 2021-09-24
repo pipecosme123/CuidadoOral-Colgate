@@ -1,5 +1,12 @@
 import LogoColgate from '../img/Home/Colgate_logo.png';
 import Menu from '../img/Home/15.svg';
+import bottonBeneficios from "../img/Listones/bottonBeneficios.svg";
+import LogoColgateLazyLoad from "../img/Listones/LogoColgateLazyLoad.svg";
+
+// SLIDER
+import slider1 from '../img/Home/slider1.jpg';
+import slider2 from '../img/Home/slider2.jpg';
+import slider3 from '../img/Home/slider3.jpg';
 
 import FondoListon from "../img/Listones/FondoListon.svg";
 
@@ -141,7 +148,15 @@ import prodInfantil_06 from '../img/Productos/Infantil/infantil_03.png';
 export const Home = {
     "LogoColgate": LogoColgate,
     "Menu": Menu,
+    "bottonBeneficios": bottonBeneficios,
+    "LogoColgateLazyLoad": LogoColgateLazyLoad
 }
+
+export const Sliders = [
+    {"slider": slider1},
+    {"slider": slider2},
+    {"slider": slider3},
+]
 
 export const Botones_Listones = {
     "FondoListon": FondoListon,
@@ -190,15 +205,15 @@ export const Botones_Listones = {
 export const imgMultibeneficios = {
     "cabecera": cabMultibeneficios,
     "botones": [
-        {"btn": btnMultibeneficios_01},
-        {"btn": btnMultibeneficios_02},
-        {"btn": btnMultibeneficios_03},
-        {"btn": btnMultibeneficios_04},
-        {"btn": btnMultibeneficios_05},
-        {"btn": btnMultibeneficios_06},
-        {"btn": btnMultibeneficios_07},
-        {"btn": btnMultibeneficios_08},
-        {"btn": btnMultibeneficios_09}
+        { "btn": btnMultibeneficios_01 },
+        { "btn": btnMultibeneficios_02 },
+        { "btn": btnMultibeneficios_03 },
+        { "btn": btnMultibeneficios_04 },
+        { "btn": btnMultibeneficios_05 },
+        { "btn": btnMultibeneficios_06 },
+        { "btn": btnMultibeneficios_07 },
+        { "btn": btnMultibeneficios_08 },
+        { "btn": btnMultibeneficios_09 }
     ],
     "producto": {
         "prodMultibeneficios_01": prodMultibeneficios_01,
@@ -216,13 +231,13 @@ export const imgMultibeneficios = {
 export const imgBlanqueamiento = {
     "cabecera": cabBlanqueamiento,
     "botones": [
-        {"btn": btnBlanqueamiento_01},
-        {"btn": btnBlanqueamiento_02},
-        {"btn": btnBlanqueamiento_03},
-        {"btn": btnBlanqueamiento_04},
-        {"btn": btnBlanqueamiento_05},
-        {"btn": btnBlanqueamiento_06},
-        {"btn": btnBlanqueamiento_07}
+        { "btn": btnBlanqueamiento_01 },
+        { "btn": btnBlanqueamiento_02 },
+        { "btn": btnBlanqueamiento_03 },
+        { "btn": btnBlanqueamiento_04 },
+        { "btn": btnBlanqueamiento_05 },
+        { "btn": btnBlanqueamiento_06 },
+        { "btn": btnBlanqueamiento_07 }
     ],
     "producto": {
         "prodBlanqueamiento_01": prodBlanqueamiento_01,
@@ -238,14 +253,14 @@ export const imgBlanqueamiento = {
 export const imgNatural = {
     "cabecera": cabNatural,
     "botones": [
-        {"btn": btnNatural_01},
-        {"btn": btnNatural_02},
-        {"btn": btnNatural_03},
-        {"btn": btnNatural_04},
-        {"btn": btnNatural_05},
-        {"btn": btnNatural_06},
-        {"btn": btnNatural_07},
-        {"btn": btnNatural_08}
+        { "btn": btnNatural_01 },
+        { "btn": btnNatural_02 },
+        { "btn": btnNatural_03 },
+        { "btn": btnNatural_04 },
+        { "btn": btnNatural_05 },
+        { "btn": btnNatural_06 },
+        { "btn": btnNatural_07 },
+        { "btn": btnNatural_08 }
     ],
     "producto": {
         "prodNatural_01": prodNatural_01,
@@ -262,12 +277,12 @@ export const imgNatural = {
 export const imgFamiliar = {
     "cabecera": cabFamiliar,
     "botones": [
-        {"btn": btnFamiliar_01},
-        {"btn": btnFamiliar_02},
-        {"btn": btnFamiliar_03},
-        {"btn": btnFamiliar_04},
-        {"btn": btnFamiliar_05},
-        {"btn": btnFamiliar_06}
+        { "btn": btnFamiliar_01 },
+        { "btn": btnFamiliar_02 },
+        { "btn": btnFamiliar_03 },
+        { "btn": btnFamiliar_04 },
+        { "btn": btnFamiliar_06 },
+        { "btn": btnFamiliar_05 }
     ],
     "producto": {
         "prodFamiliar_01": prodFamiliar_01,
@@ -282,13 +297,13 @@ export const imgFamiliar = {
 export const imgSensibilidad = {
     "cabecera": cabSensibilidad,
     "botones": [
-        {"btn": btnSensibilidad_01},
-        {"btn": btnSensibilidad_02},
-        {"btn": btnSensibilidad_03},
-        {"btn": btnSensibilidad_04},
-        {"btn": btnSensibilidad_05},
-        {"btn": btnSensibilidad_06},
-        {"btn": btnSensibilidad_07}
+        { "btn": btnSensibilidad_01 },
+        { "btn": btnSensibilidad_02 },
+        { "btn": btnSensibilidad_03 },
+        { "btn": btnSensibilidad_04 },
+        { "btn": btnSensibilidad_05 },
+        { "btn": btnSensibilidad_06 },
+        { "btn": btnSensibilidad_07 }
     ],
     "producto": {
         "prodSensibilidad_01": prodSensibilidad_01,
@@ -308,12 +323,12 @@ export const imgSensibilidad = {
 export const imgInfantil = {
     "cabecera": cabInfantil,
     "botones": [
-        {"btn": btnInfantil_01},
-        {"btn": btnInfantil_02},
-        {"btn": btnInfantil_03},
-        {"btn": btnInfantil_04},
-        {"btn": btnInfantil_05},
-        {"btn": btnInfantil_06}
+        { "btn": btnInfantil_01 },
+        { "btn": btnInfantil_02 },
+        { "btn": btnInfantil_03 },
+        { "btn": btnInfantil_04 },
+        { "btn": btnInfantil_05 },
+        { "btn": btnInfantil_06 }
     ],
     "producto": {
         "prodInfantil_01": prodInfantil_01,

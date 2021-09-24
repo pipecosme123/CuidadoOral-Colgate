@@ -1,7 +1,16 @@
 import React from 'react';
+import { Home } from '../Constants/Images';
 import '../css/PlantillaProductos.css';
 
 const PlantillaCabecera = ({ data }) => {
+
+  const scrollWindow = () => {
+    window.scroll({
+      left: window.screen.width,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <div>
       <div className="pProductos">
@@ -16,7 +25,7 @@ const PlantillaCabecera = ({ data }) => {
               <h4>{data.sufijo}</h4>
               <h3 className="subTitulo">{data.subTitulo}</h3>
             </div>
-            <p className="informacion">{data.informacion}</p>
+            <p className={ data.informacion !== "" ? "informacion" : "noVisible"}>{data.informacion}</p>
             <h3 className="tituloSec">{data.tituloSec.toUpperCase()}</h3>
             <div className="seccionBeneficios">
               <ul>
@@ -28,6 +37,7 @@ const PlantillaCabecera = ({ data }) => {
               </ul>
             </div>
             <span>{data.extra}</span>
+            <button className="barraBeneficios" onClick={() => scrollWindow()}>Conoce los productos con estos beneficios <img src={Home.bottonBeneficios} alt="" /></button>
           </div>
         </div>
 

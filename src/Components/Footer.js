@@ -11,7 +11,7 @@ const Footer = ({ limite, activate }) => {
   const rest = window.screen.width;
   const limit = limite * rest;
   let [positionScroll, setPositionScroll] = useState(0);
-  const [btnRetroceder,setBtnRetroceder] = useState("disable");
+  const [btnRetroceder,setBtnRetroceder] = useState("btn");
   const [btnAvanzar,setBtnAvanzar] = useState("btn");
 
   const Retroceder = () => {
@@ -24,7 +24,7 @@ const Footer = ({ limite, activate }) => {
       behavior: 'smooth'
     });
 
-    if (positionScroll < 1920) {
+    if (positionScroll < rest) {
       setPositionScroll(0);
       setBtnRetroceder("disable");
     } else {

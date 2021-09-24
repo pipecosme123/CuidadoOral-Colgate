@@ -32,6 +32,10 @@
     transform: scale(0.8);
 }
 
+.ButtonMenu.scale2 {
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 1440px) {
     /* .ButtonMenu {
         top: 4em;

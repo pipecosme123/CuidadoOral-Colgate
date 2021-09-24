@@ -11,7 +11,6 @@ const PlantillaMenuProductos = ({ data }) => {
       left: positionX,
       behavior: 'smooth'
     });
-
   }
 
   return (
@@ -24,9 +23,7 @@ const PlantillaMenuProductos = ({ data }) => {
         </div>
         {data.map((img, index) => (
           <div key={index} className={`mcImg animate`} onClick={() => scrollToProduct(index + 2)}>
-            {/* <a href={`##`}> */}
-              <img src={img.btn} alt="" />
-            {/* </a> */}
+            <img src={img.btn} alt="" />
           </div>
         ))}
       </div>

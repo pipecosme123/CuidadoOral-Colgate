@@ -79,9 +79,9 @@
 .pMenu .titleMenu {
   width: auto;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 41%;
-  color: #545454;
+  color: var(--color-2Text);
 }
 
 .pMenu .titleMenu h1 {
@@ -104,7 +104,7 @@
 .ButtonsMenu {
   display: flex;
   justify-content: space-around;
-  padding-top: 10em;
+  padding-top: 13em;
 }
 
 .ButtonsMenu a{
