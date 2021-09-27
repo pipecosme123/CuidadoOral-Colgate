@@ -1,6 +1,6 @@
 import React from 'react';
-import { Botones_Listones } from '../Constants/Images';
-import '../css/ButtonMenu.css';
+import { Botones_Listones } from '../../Constants/Images';
+import '../../css/ButtonMenu.css';
 
 const ButtonMenu = ({imgData, self}) => {
     return (

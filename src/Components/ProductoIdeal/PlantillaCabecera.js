@@ -1,6 +1,6 @@
 import React from 'react';
-import { Home } from '../Constants/Images';
-import '../css/PlantillaProductos.css';
+import { Home } from '../../Constants/Images';
+import '../../css/PlantillaProductos.css';
 
 const PlantillaCabecera = ({ data }) => {
 

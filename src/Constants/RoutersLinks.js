@@ -7,4 +7,5 @@ export const RoutersLinks = {
     "cuidadoFamiliar": "/CuidadoFamiliar",
     "sensibilidad": "/Sensibilidad",
     "infantil": "/Infantil",
+    "quiz": "/Quiz"
 }

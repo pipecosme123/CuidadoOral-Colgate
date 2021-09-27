@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home } from '../Constants/Images';
+import { Home } from '../../Constants/Images';
 import '../css/LazyLoad.css';
 
 const LazyLoad = () => {

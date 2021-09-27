@@ -2,6 +2,8 @@ import LogoColgate from '../img/Home/Colgate_logo.png';
 import Menu from '../img/Home/15.svg';
 import bottonBeneficios from "../img/Listones/bottonBeneficios.svg";
 import LogoColgateLazyLoad from "../img/Listones/LogoColgateLazyLoad.svg";
+import buttonRepuestaCorrecta from "../img/Listones/RepuestaCorrecta.svg";
+import buttonRepuestaFalsa from "../img/Listones/RepuestaFalsa.svg";
 
 // SLIDER
 import slider1 from '../img/Home/slider1.jpg';
@@ -149,13 +151,15 @@ export const Home = {
     "LogoColgate": LogoColgate,
     "Menu": Menu,
     "bottonBeneficios": bottonBeneficios,
-    "LogoColgateLazyLoad": LogoColgateLazyLoad
+    "LogoColgateLazyLoad": LogoColgateLazyLoad,
+    "buttonRepuestaCorrecta": buttonRepuestaCorrecta,
+    "buttonRepuestaFalsa": buttonRepuestaFalsa,
 }
 
 export const Sliders = [
-    {"slider": slider1},
-    {"slider": slider2},
-    {"slider": slider3},
+    { "slider": slider1 },
+    { "slider": slider2 },
+    { "slider": slider3 },
 ]
 
 export const Botones_Listones = {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import NavBar from '../Components/NavBar';
+import NavBar from '../Home/NavBar';
 import PlantillaCabecera from './PlantillaCabecera';
 import PlantillaMenuProductos from './PlantillaMenuProductos';
 import PlantillaProductos from './PlantillaProductos';

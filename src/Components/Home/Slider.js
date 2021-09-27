@@ -5,7 +5,7 @@ import 'swiper/components/navigation/navigation.scss'; // Importar el CSS de los
 import 'swiper/components/pagination/pagination.scss';
 import "swiper/components/effect-coverflow/effect-coverflow.scss";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow, Autoplay } from 'swiper';   // import Swiper core and required modules
-import { Sliders } from '../Constants/Images';
+import { Sliders } from '../../Constants/Images';
 // import { render } from '@testing-library/react';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectCoverflow, Autoplay]);      // install Swiper modules

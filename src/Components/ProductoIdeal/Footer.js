@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { HiChevronDoubleLeft, HiChevronDoubleRight } from 'react-icons/hi';
-import { Botones_Listones } from '../Constants/Images';
-import { RoutersLinks } from '../Constants/RoutersLinks';
-import '../css/Footer.css';
+import { Botones_Listones } from '../../Constants/Images';
+import { RoutersLinks } from '../../Constants/RoutersLinks';
+import '../../css/Footer.css';
 
-const Footer = ({ limite, activate }) => {
+const Footer = ({ limite, activate, visible }) => {
 
   // let rightScroll = 1;
-  
+
   const rest = window.screen.width;
   const limit = limite * rest;
   let [positionScroll, setPositionScroll] = useState(0);
-  const [btnRetroceder,setBtnRetroceder] = useState("btn");
-  const [btnAvanzar,setBtnAvanzar] = useState("btn");
+  const [btnRetroceder, setBtnRetroceder] = useState("btn");
+  const [btnAvanzar, setBtnAvanzar] = useState("btn");
 
   const Retroceder = () => {
 
@@ -66,7 +66,7 @@ const Footer = ({ limite, activate }) => {
         </div>
       </div>
 
-      <div className="footerMenu">
+      <div className={visible ? "footerMenu" : "noVisible"}>
         <a href={RoutersLinks.multibeneficios} className={activate === "Multibeneficios" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[0]}*/}
           <img src={Botones_Listones.Multibeneficios.btn} alt="" />
           <p>Multibeneficios</p>

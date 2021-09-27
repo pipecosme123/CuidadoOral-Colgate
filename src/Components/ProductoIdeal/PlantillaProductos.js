@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/PlantillaProductos.css';
+import '../../css/PlantillaProductos.css';
 
 const PlantillaProductos = ({ data }) => {
 

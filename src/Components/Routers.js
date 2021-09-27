@@ -4,7 +4,8 @@ import { RoutersLinks } from '../Constants/RoutersLinks';
 import { Multibeneficios, Blanqueamiento, Natural, Familiar, Sensibilidad, Infantil } from '../Constants/Productos';
 import Home from '../Pages/Home';
 import Menu from '../Pages/Menu';
-import SliderProductos from './SliderProductos';
+import SliderProductos from './ProductoIdeal/SliderProductos';
+import Quiz from '../Pages/Quiz';
 
 const Routers = () => {
     return (
@@ -18,6 +19,7 @@ const Routers = () => {
                 <Route exact path={RoutersLinks.cuidadoFamiliar} component={() => <SliderProductos data={Familiar}></SliderProductos>}></Route>
                 <Route exact path={RoutersLinks.sensibilidad} component={() => <SliderProductos data={Sensibilidad}></SliderProductos>}></Route>
                 <Route exact path={RoutersLinks.infantil} component={() => <SliderProductos data={Infantil}></SliderProductos>}></Route>
+                <Route exact path={RoutersLinks.quiz} component={() => <Quiz></Quiz>}/>
             </Switch>
         </Router>
     );

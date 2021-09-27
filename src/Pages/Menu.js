@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonMenu from '../Components/ButtonMenu';
-import NavBar from '../Components/NavBar';
+import ButtonMenu from '../Components/ProductoIdeal/ButtonMenu';
+import NavBar from '../Components/Home/NavBar';
 import { Botones_Listones } from '../Constants/Images';
 import { RoutersLinks } from '../Constants/RoutersLinks';
 import '../css/Menu.css';
