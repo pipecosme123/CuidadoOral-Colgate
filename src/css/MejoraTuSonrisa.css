@@ -1,0 +1,59 @@
+.MejoraTuSonrisa {
+    display: flex;
+}
+
+.seccionesMTS{
+    width: auto;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.seccionMTS{
+    width: 92vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 5em;
+    text-align: left;
+    background: var(--Background2);
+    background-attachment: fixed;
+}
+
+.MejoraTuSonrisa .bMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bMenu .titleMenu{
+    padding-bottom: 1em;
+    margin: 0;
+    font-size: 5em;
+    font-family: "Light";
+    color: var(--color-Text);
+}
+
+.bMenu .buttonsMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.bMenu .btnImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.bMenu .btnImage img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bMenu .btnImage img:active{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px #d2010d80;
+}
