@@ -17,7 +17,7 @@
     align-items: center;
     padding: 0 5em;
     text-align: left;
-    background: url('../img/Fondos/Fondo2.jpg');
+    background: var(--Background2);
     background-attachment: fixed;
 }
 

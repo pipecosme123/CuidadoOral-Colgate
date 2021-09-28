@@ -2,7 +2,7 @@
 
 .menuCircular {
     width: auto;
-    background: url('../img/Fondos/Fondo2.jpg');
+    background: var(--Background2);
     background-attachment: fixed;
 }
 
