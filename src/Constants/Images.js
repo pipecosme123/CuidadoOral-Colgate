@@ -147,6 +147,29 @@ import prodInfantil_054 from '../img/Productos/Infantil/infantil_044.png';
 import btnInfantil_06 from '../img/Productos/Infantil/btnInfantil_03.jpg';
 import prodInfantil_06 from '../img/Productos/Infantil/infantil_03.png';
 
+// Consejos
+import btnConsejo1 from '../img/Consejos/btnConsejo_01.jpg';
+import btnConsejo2 from '../img/Consejos/btnConsejo_02.jpg';
+import btnConsejo3 from '../img/Consejos/btnConsejo_03.jpg';
+import btnConsejo4 from '../img/Consejos/btnConsejo_04.jpg';
+import btnConsejo5 from '../img/Consejos/btnConsejo_05.jpg';
+import Consejos_1_01 from '../img/Consejos/Consejos_01.png';
+import Consejos_1_02 from '../img/Consejos/Consejos_02.png';
+import Consejos_1_03 from '../img/Consejos/Consejos_03.png';
+import Consejos_1_04 from '../img/Consejos/Consejos_04.png';
+import Consejos_2_01 from '../img/Consejos/Consejos_15.jpg';
+import Consejos_4_01 from '../img/Consejos/Consejos_08.png';
+import Consejos_4_02 from '../img/Consejos/Consejos_14.svg';
+import Consejos_5_01 from '../img/Consejos/Consejos_10.png';
+import Consejos_5_02 from '../img/Consejos/Consejos_11.png';
+import Consejos_5_03 from '../img/Consejos/Consejos_12.png';
+import Consejos_5_04 from '../img/Consejos/Consejos_13.png';
+import Consejos_5_05 from '../img/Consejos/Consejos_05.png';
+import Consejos_5_06 from '../img/Consejos/Consejos_06.png';
+import Consejos_5_07 from '../img/Consejos/Consejos_07.png';
+
+
+
 export const Home = {
     "LogoColgate": LogoColgate,
     "Menu": Menu,
@@ -347,4 +370,29 @@ export const imgInfantil = {
         },
         "prodInfantil_06": prodInfantil_06,
     }
+}
+
+export const btnConsejos = [
+    {"btnConsejo": btnConsejo1},
+    {"btnConsejo": btnConsejo2},
+    {"btnConsejo": btnConsejo3},
+    {"btnConsejo": btnConsejo4},
+    {"btnConsejo": btnConsejo5}
+]
+
+export const consejos = {
+    "Consejos_1_01": Consejos_1_01,
+    "Consejos_1_02": Consejos_1_02,
+    "Consejos_1_03": Consejos_1_03,
+    "Consejos_1_04": Consejos_1_04,
+    "Consejos_2_01": Consejos_2_01,
+    "Consejos_4_01": Consejos_4_01,
+    "Consejos_4_02": Consejos_4_02,
+    "Consejos_5_01": Consejos_5_01,
+    "Consejos_5_02": Consejos_5_02,
+    "Consejos_5_03": Consejos_5_03,
+    "Consejos_5_04": Consejos_5_04,
+    "Consejos_5_05": Consejos_5_05,
+    "Consejos_5_06": Consejos_5_06,
+    "Consejos_5_07": Consejos_5_07,
 }
