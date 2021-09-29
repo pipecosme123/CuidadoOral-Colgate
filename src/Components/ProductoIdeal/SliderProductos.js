@@ -10,12 +10,12 @@ const SliderProductos = ({ data }) => {
         <div>
             <div className="SliderProductos">
                 <NavBar></NavBar>
-                <PlantillaCabecera data={data.InformacionCabecera}></PlantillaCabecera>
-                <PlantillaMenuProductos data={data.ImagenesMenuBotones}></PlantillaMenuProductos>
-                <PlantillaProductos data={data.InformacionProductos}></PlantillaProductos>
+                <PlantillaCabecera data={data.InformacionCabecera} />
+                <PlantillaMenuProductos data={data.ImagenesMenuBotones} />
+                <PlantillaProductos data={data.InformacionProductos} />
             </div>
             <div>
-                <Footer activate={data.footer} limite={data.InformacionProductos.length}></Footer>
+                <Footer activate={data.footer} limite={data.InformacionProductos.length} visible={true} />
             </div>
         </div>
     );

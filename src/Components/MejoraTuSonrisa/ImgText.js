@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../css/ImgText.css';
 
-const ImgText = ({urlImg, text}) => {
+const ImgText = ({orientation, urlImg, text}) => {
     return (
-        <div className="ImgText">
+        <div className={`ImgText ${orientation}`}>
             <img src={urlImg} alt="" />
             <p>{text}</p>
         </div>

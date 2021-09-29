@@ -154,16 +154,19 @@ import btnConsejo3 from '../img/Consejos/btnConsejo_03.jpg';
 import btnConsejo4 from '../img/Consejos/btnConsejo_04.jpg';
 import btnConsejo5 from '../img/Consejos/btnConsejo_05.jpg';
 import Consejos_1_01 from '../img/Consejos/Consejos_01.png';
-import Consejos_1_02 from '../img/Consejos/Consejos_02.png';
-import Consejos_1_03 from '../img/Consejos/Consejos_03.png';
-import Consejos_1_04 from '../img/Consejos/Consejos_04.png';
+import Consejos_1_02 from '../img/Consejos/Consejos_02.svg';
+import Consejos_1_03 from '../img/Consejos/Consejos_03.svg';
+import Consejos_1_04 from '../img/Consejos/Consejos_04.svg';
 import Consejos_2_01 from '../img/Consejos/Consejos_15.jpg';
+import Consejos_3_01 from '../img/Consejos/Consejos_16.png';
+import Consejos_3_02 from '../img/Consejos/Consejos_17.png';
+import Consejos_3_03 from '../img/Consejos/Consejos_18.png';
 import Consejos_4_01 from '../img/Consejos/Consejos_08.png';
 import Consejos_4_02 from '../img/Consejos/Consejos_14.svg';
-import Consejos_5_01 from '../img/Consejos/Consejos_10.png';
-import Consejos_5_02 from '../img/Consejos/Consejos_11.png';
-import Consejos_5_03 from '../img/Consejos/Consejos_12.png';
-import Consejos_5_04 from '../img/Consejos/Consejos_13.png';
+import Consejos_5_01 from '../img/Consejos/Consejos_10.svg';
+import Consejos_5_02 from '../img/Consejos/Consejos_11.svg';
+import Consejos_5_03 from '../img/Consejos/Consejos_12.svg';
+import Consejos_5_04 from '../img/Consejos/Consejos_13.svg';
 import Consejos_5_05 from '../img/Consejos/Consejos_05.png';
 import Consejos_5_06 from '../img/Consejos/Consejos_06.png';
 import Consejos_5_07 from '../img/Consejos/Consejos_07.png';
@@ -373,11 +376,11 @@ export const imgInfantil = {
 }
 
 export const btnConsejos = [
-    {"btnConsejo": btnConsejo1},
-    {"btnConsejo": btnConsejo2},
-    {"btnConsejo": btnConsejo3},
-    {"btnConsejo": btnConsejo4},
-    {"btnConsejo": btnConsejo5}
+    { "btnConsejo": btnConsejo1 },
+    { "btnConsejo": btnConsejo2 },
+    { "btnConsejo": btnConsejo3 },
+    { "btnConsejo": btnConsejo4 },
+    { "btnConsejo": btnConsejo5 }
 ]
 
 export const consejos = {
@@ -386,6 +389,9 @@ export const consejos = {
     "Consejos_1_03": Consejos_1_03,
     "Consejos_1_04": Consejos_1_04,
     "Consejos_2_01": Consejos_2_01,
+    "Consejos_3_01": Consejos_3_01,
+    "Consejos_3_02": Consejos_3_02,
+    "Consejos_3_03": Consejos_3_03,
     "Consejos_4_01": Consejos_4_01,
     "Consejos_4_02": Consejos_4_02,
     "Consejos_5_01": Consejos_5_01,
