@@ -26,7 +26,7 @@ const Footer = ({ limite, activate, visible }) => {
 
     if (positionScroll < rest) {
       setPositionScroll(0);
-      setBtnRetroceder("disable");
+      // setBtnRetroceder("disable");
     } else {
       setPositionScroll(positionX);
       setBtnRetroceder("btn");
