@@ -57,7 +57,7 @@
     font-family: "ExtraLightItalic";
     color: var(--color-Cologate);
     font-size: 1.7em;
-    margin: 1px 0;
+    margin: 1em 0 0;
     position: relative;
     bottom: 20px;
 }
@@ -106,7 +106,7 @@
 }
 
 .informacionProducto span.pExtra {
-    margin-left: 2em;
+    margin: 2em 0 0 4em;
 }
 
 .plantillaProductos.plantillaImagenes {

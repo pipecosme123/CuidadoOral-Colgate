@@ -11,10 +11,6 @@ const PlantillaProductos = ({ data }) => {
     <div>
       <div className="pProductos">
         {data.map((prod, index) => (
-          // <div key={index}>
-          //   {productos.tipo === "imagenes" ? () => <Ejem da={productos} /> : { <PProductos prod={productos} /> }}
-          // </div>
-
             <div key={index}>
               <div className={prod.tipo === "producto" ? "plantillaProductos" : "noVisible"} id={prod.id}>
                 <div className="imgProduvto">
@@ -23,12 +19,11 @@ const PlantillaProductos = ({ data }) => {
                 <div className="informacionProducto">
                   <div className="secTitulo">
                     <h3>{prod.tituloSuperior}</h3>
-                    <h1>{prod.nombre}</h1>
-                    <h4>{prod.sufijo}</h4>
+                    <h1>{prod.nombre.toUpperCase()}</h1>
                     <h3 className="subTitulo">{prod.subTitulo}</h3>
                   </div>
-                  <p className={ data.informacion !== "" ? "informacion" : "noVisible"}>{data.informacion}</p>
-                  <h3 className={ data.tituloSec !== "" ? "tituloSec" : "noVisible"}>{prod.tituloSec.toUpperCase()}</h3>
+                  <p className={prod.informacion === "" ? "noVisible" : "informacion"}>{prod.informacion}</p>
+                  <h3 className={ prod.tituloSec !== "" ? "tituloSec" : "noVisible"}>{prod.tituloSec.toUpperCase()}</h3>
                   <div className="seccionBeneficios">
                     <ul>
                       {prod.beneficios.map((bene, index) => (

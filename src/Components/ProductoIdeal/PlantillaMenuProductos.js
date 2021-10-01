@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../css/PlantillaMenuProductos.scss';
 import '../../css/PlantillaMenuProductos.css';
 
 const PlantillaMenuProductos = ({ data }) => {

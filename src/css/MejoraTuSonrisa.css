@@ -56,7 +56,7 @@
 
 .bMenu .btnImage img:active {
     transform: scale(1.1);
-    box-shadow: 0px 4px 4px #d2010d80;
+    box-shadow: 0px 4px 4px #009CA680;
 }
 
 .consejo1 {

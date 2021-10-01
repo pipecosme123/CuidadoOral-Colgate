@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';         // Importar los componentes de Swiper React
+// import "swiper/css/effect-coverflow"
 import 'swiper/swiper.scss';   // Importar los estilos 'Swiper'
 import 'swiper/components/navigation/navigation.scss'; // Importar el CSS de los botones de navegacion
 import 'swiper/components/pagination/pagination.scss';
@@ -15,15 +16,23 @@ const Slider = () => {
     return (
         <div>
             <Swiper
+                effect={'coverflow'}
+                speed={900}
                 spaceBetween={50}
-                slidesPerView={1}
+                slidesPerView={3}
                 className="mySwiper"
                 loop={true}
-                // navigation={true}
                 autoplay={{
                     "delay": 3000,
                     "disableOnInteraction": true
                 }}
+                coverflowEffect={{
+                    "rotate": 0,
+                    "stretch": 0,
+                    "depth": 0,
+                    "modifier": 1,
+                    "slideShadows": false
+                  }}
             >
                 {Sliders.map((slider, index) => (
                     <SwiperSlide key={index}>
