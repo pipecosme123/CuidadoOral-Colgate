@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home } from '../../Constants/Images';
+import { ImgHome } from '../../Constants/Images';
 import '../../css/PlantillaProductos.css';
 
 const PlantillaCabecera = ({ data }) => {
@@ -22,11 +22,10 @@ const PlantillaCabecera = ({ data }) => {
             <div className="secTitulo">
               <h3>{data.tituloSuperior}</h3>
               <h1>{data.nombre}</h1>
-              <h4>{data.sufijo}</h4>
-              <h3 className="subTitulo">{data.subTitulo}</h3>
+              <h3 className={data.subTitulo === "" ? "noVisible" : "subTitulo"}>{data.subTitulo}</h3>
             </div>
-            <p className={ data.informacion !== "" ? "informacion" : "noVisible"}>{data.informacion}</p>
-            <h3 className="tituloSec">{data.tituloSec.toUpperCase()}</h3>
+            <p className={data.informacion !== "" ? "informacion" : "noVisible"}>{data.informacion}</p>
+            <h3 className={data.tituloSec !== "" ? "tituloSec" : "noVisible"}>{data.tituloSec.toUpperCase()}</h3>
             <div className="seccionBeneficios">
               <ul>
                 {data.beneficios.map((bene, index) => (
@@ -37,7 +36,7 @@ const PlantillaCabecera = ({ data }) => {
               </ul>
             </div>
             <span>{data.extra}</span>
-            <button className="barraBeneficios" onClick={() => scrollWindow()}>Conoce los productos con estos beneficios <img src={Home.bottonBeneficios} alt="" /></button>
+            <button className="barraBeneficios" onClick={() => scrollWindow()}>Conoce los productos con estos beneficios <img src={ImgHome.bottonBeneficios} alt="" /></button>
           </div>
         </div>
 

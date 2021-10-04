@@ -173,7 +173,7 @@ import Consejos_5_07 from '../img/Consejos/Consejos_07.png';
 
 
 
-export const Home = {
+export const ImgHome = {
     "LogoColgate": LogoColgate,
     "Menu": Menu,
     "bottonBeneficios": bottonBeneficios,

@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonMenu from '../Components/ProductoIdeal/ButtonMenu';
 import Slider from '../Components/Home/Slider';
-import { Botones_Listones } from '../Constants/Images';
+import { ImgHome, Botones_Listones } from '../Constants/Images';
 import { RoutersLinks } from '../Constants/RoutersLinks';
 import '../css/Home.css';
 
@@ -18,6 +18,7 @@ const Home = () => {
     <div className="pHome">
       <div className="Home">
         <div className="separador"></div>
+        <img className="imgLogoColgate" src={ImgHome.LogoColgate} alt="LogoColgate" />
         <div className="slider">
           <Slider />
         </div>
@@ -33,8 +34,8 @@ const Home = () => {
         </div>
         <div className="ButtonsMenu" id="menu">
           <a href={RoutersLinks.menu}><ButtonMenu imgData={Botones_Listones.ProductoIdeal} self="scale2" /></a>
-          <a href={RoutersLinks.mejoraTuSonrisa}><ButtonMenu imgData={Botones_Listones.MejoraTuSonrisa} self="self scale2" /></a>
-          <a href="##"><ButtonMenu imgData={Botones_Listones.seccionInfantil} self="self scale2" /></a>
+          <a href={RoutersLinks.mejoraTuSonrisa}><ButtonMenu imgData={Botones_Listones.MejoraTuSonrisa} self="scale2" /></a>
+          <a href={RoutersLinks.mundoInfantil}><ButtonMenu imgData={Botones_Listones.seccionInfantil} self="scale2" /></a>
           <a href={RoutersLinks.quiz}><ButtonMenu imgData={Botones_Listones.Quiz} self="scale2" /></a>
         </div>
       </div>

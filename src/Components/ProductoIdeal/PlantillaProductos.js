@@ -20,10 +20,10 @@ const PlantillaProductos = ({ data }) => {
                   <div className="secTitulo">
                     <h3>{prod.tituloSuperior}</h3>
                     <h1>{prod.nombre.toUpperCase()}</h1>
-                    <h3 className="subTitulo">{prod.subTitulo}</h3>
+                    <h3 className={prod.subTitulo === "" ? "noVisible" : "subTitulo"}>{prod.subTitulo}</h3>
                   </div>
                   <p className={prod.informacion === "" ? "noVisible" : "informacion"}>{prod.informacion}</p>
-                  <h3 className={ prod.tituloSec !== "" ? "tituloSec" : "noVisible"}>{prod.tituloSec.toUpperCase()}</h3>
+                  <h3 className={prod.tituloSec !== "" ? "tituloSec" : "noVisible"}>{prod.tituloSec.toUpperCase()}</h3>
                   <div className="seccionBeneficios">
                     <ul>
                       {prod.beneficios.map((bene, index) => (

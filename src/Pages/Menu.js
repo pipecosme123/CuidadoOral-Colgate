@@ -7,14 +7,16 @@ import '../css/Menu.css';
 
 const Menu = () => {
     return (
-        <div className="menuProductoIdeal">
+        <div>
             <NavBar></NavBar>
-            <a href={RoutersLinks.multibeneficios}><ButtonMenu imgData={Botones_Listones.Multibeneficios} self="scale" /></a>
-            <a href={RoutersLinks.blanqueamiento}><ButtonMenu imgData={Botones_Listones.Blanqueamiento} self="scale" /></a>
-            <a href={RoutersLinks.saludNatural}><ButtonMenu imgData={Botones_Listones.SaludNatural} self="scale" /></a>
-            <a href={RoutersLinks.cuidadoFamiliar}><ButtonMenu imgData={Botones_Listones.CuidadoFamiliar} self="scale" /></a>
-            <a href={RoutersLinks.sensibilidad}><ButtonMenu imgData={Botones_Listones.Sensibilidad} self="scale" /></a>
-            <a href={RoutersLinks.infantil}><ButtonMenu imgData={Botones_Listones.Infantil} self="scale" /></a>
+            <div className="menuProductoIdeal">
+                <a href={RoutersLinks.multibeneficios}><ButtonMenu imgData={Botones_Listones.Multibeneficios} self="self scale" /></a>
+                <a href={RoutersLinks.blanqueamiento}><ButtonMenu imgData={Botones_Listones.Blanqueamiento} self="self scale" /></a>
+                <a href={RoutersLinks.saludNatural}><ButtonMenu imgData={Botones_Listones.SaludNatural} self="self scale" /></a>
+                <a href={RoutersLinks.cuidadoFamiliar}><ButtonMenu imgData={Botones_Listones.CuidadoFamiliar} self="self scale" /></a>
+                <a href={RoutersLinks.sensibilidad}><ButtonMenu imgData={Botones_Listones.Sensibilidad} self="self scale" /></a>
+                <a href={RoutersLinks.infantil}><ButtonMenu imgData={Botones_Listones.Infantil} self="self scale" /></a>
+            </div>
         </div>
     );
 };

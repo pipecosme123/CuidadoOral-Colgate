@@ -8,5 +8,6 @@ export const RoutersLinks = {
     "sensibilidad": "/Sensibilidad",
     "infantil": "/Infantil",
     "quiz": "/Quiz",
-    "mejoraTuSonrisa": "/MejoraTuSonrisa"
+    "mejoraTuSonrisa": "/MejoraTuSonrisa",
+    "mundoInfantil": "/MundoInfantil"
 }

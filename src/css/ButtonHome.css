@@ -1,0 +1,37 @@
+.ButtonHome{
+    position: relative;
+    top: 6em;
+}
+
+.ButtonHome button{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: #fff;
+}
+
+.ButtonHome button:active {
+    background: var(--color-Cologate);
+}
+
+.ButtonHome button svg:active {
+    color: #fff;
+}
+
+.ButtonHome button svg {
+    width: 6em;
+    height: 6em;
+    color: #e1e1e1;
+
+}
+
+.ButtonHome p {
+    font-family: "Light";
+    color: #969696;
+    font-size: 1.2em;
+    margin: 0;
+}

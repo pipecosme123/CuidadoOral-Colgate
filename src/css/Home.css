@@ -10,8 +10,14 @@
   color: #fff;
 }
 
+.Home img.imgLogoColgate{
+  position: absolute;
+  top: 0;
+  left: 5em;
+}
+
 .separador {
-  padding-top: 90px;
+  padding-top: 160px;
 }
 
 .slider {
@@ -27,7 +33,7 @@
 .Home h1 {
   font-family: "HeavyItalic";
   font-size: 10em;
-  margin: 0 0.2em;
+  margin: 0.4em 0.2em 0;
   text-shadow: 10px 10px 0px #7b2423;
 }
 
@@ -108,9 +114,16 @@
 .ButtonsMenu {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   padding-top: 13em;
 }
 
+.ButtonsMenu a:nth-child(2), .ButtonsMenu a:nth-child(3){
+  position: relative;
+  bottom: -29em;
+}
+
 .ButtonsMenu a{
-  height: min-content;
+  width: 370px;
+  height: 370px;
 }

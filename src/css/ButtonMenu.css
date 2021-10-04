@@ -1,6 +1,10 @@
 .ButtonMenu {
-    width: 280px;
-    height: 400px;
+    width: 370px;
+    height: 370px;
+    margin: 20px 1px 1px 40px;
+    /* margin: 0; */
+    /* margin-top: 1.5em;
+    margin-left: 2em; */
     cursor: pointer;
 }
 
@@ -13,7 +17,7 @@
 
 .ButtonMenu .btnListon {
     width: 19em;
-    margin-left: -0.2em;
+    margin-left: -4.5em;
     top: 0px;
 }
 
@@ -25,7 +29,8 @@
 }
 
 .ButtonMenu.self {
-    margin-top: 28em;
+    margin: 1px 1px -10px -20px !important;
+    padding-bottom: -500px;
 }
 
 .ButtonMenu.scale {

@@ -5,9 +5,16 @@ import { RoutersLinks } from '../Constants/RoutersLinks';
 const IdleTimerComponent = () => {
     const idleTimerRef = useRef(null);
     const onIdle = () => {
-        if (window.location.pathname !== RoutersLinks.home) {
-            window.location.href = RoutersLinks.home;
-        }
+
+        // if (window.location.pathname !== RoutersLinks.home) {
+            if (window.location.pathname !== RoutersLinks.mundoInfantil) {
+                window.location.href = RoutersLinks.home;
+            } else {
+                setTimeout(() => {
+                    window.location.href = RoutersLinks.home;
+                }, 1000 * 130)
+            }
+        // }
     }
     return (
         <div>

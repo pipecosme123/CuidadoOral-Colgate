@@ -50,7 +50,7 @@ export const Multibeneficios = {
       id: 2,
       tipo: "producto",
       img: imgMultibeneficios.producto.prodMultibeneficios_02,
-      tituloSuperior: "Colgate Total Professional",
+      tituloSuperior: "Colgate Total 12",
       prefijo: "",
       nombre: "SALUD VISIBLE",
       sufijo: "",
@@ -79,7 +79,7 @@ export const Multibeneficios = {
         { beneficio: "Construye una barrera que refuerza tus encías contra bacterias." },
         { beneficio: "Mientras la fórmula va limpiando toda la boca para mantenerla saludable." },
       ],
-      extra: "* Causado por bacterias **Hasta 12H de protección contra bacterias y el mal aliento con el uso continuo por 4 semanas.",
+      extra: "* Hasta 12H de protección contra bacterias y el mal aliento con el uso continuo por 4 semanas.",
       productos: []
     },
     {
@@ -91,14 +91,13 @@ export const Multibeneficios = {
       nombre: "PROFESSIONAL",
       sufijo: "",
       subTitulo: "Aliento saludable",
-      informacion: "Adicionada con tecnología Neutro-Odor* que ayuda a neutralizar el mal aliento causado por bacterias, para brindarte una salud bucal completa",
+      informacion: "Adicionada con tecnología Neutro-Odor* que ayuda a neutralizar el mal aliento causado por bacterias, para brindarte una salud bucal completa.",
       tituloSec: "",
       beneficios: [
         { beneficio: "Tecnología Neutro-Odor es parte del sabor." },
         { beneficio: "Reduce bacterias en dientes, lengua, mejilla y encías, ayuda a reducir la placa que causa problemas en las encías, fortalece el esmalte y ayuda a aliviar la sensibilidad con el uso continuo." },
-        { beneficio: "Vs. Total Whitening." },
       ],
-      extra: "",
+      extra: "* Hasta 12h de protección contra las bacterias y el mal aliento con el uso continuo por 4 semanas",
       productos: []
     },
     {
@@ -129,7 +128,7 @@ export const Multibeneficios = {
       prefijo: "",
       nombre: "ENJUAGUE CLEAN MINT",
       sufijo: "",
-      subTitulo: "12 horas de defensa activa Protege dientes, lengua y encías",
+      subTitulo: "12 horas de defensa activa protege dientes, lengua y encías",
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
@@ -176,10 +175,10 @@ export const Multibeneficios = {
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Fórmula con CPC + Zinc." },
-        { beneficio: "Hasta 12 horas de defensa activa contra bacterias y placa**." },
+        { beneficio: "Hasta 12 horas de defensa activa contra bacterias y placa." },
         { beneficio: "Enjuague bucal sin alcohol." },
         { beneficio: "Combate el mal aliento." },
-        { beneficio: "Protege hasta el 100% de tus encías contra las bacterias.." },
+        { beneficio: "Protege hasta el 100% de tus encías contra las bacterias." },
       ],
       extra: "* vs. sólo cepillado **causados por bactérias.",
       productos: []
@@ -199,8 +198,8 @@ export const Multibeneficios = {
         { beneficio: "Fórmula con CPC + Zinc." },
         { beneficio: "Hasta 12 horas de defensa activa contra bacterias y placa." },
         { beneficio: "Spray oral con agente antibacterial gracias a su fórmula avanzada." },
-        { beneficio: "que ofrece protección al contacto con bacterias.." },
-        { beneficio: "Combate el mal aliento y ofrece protección en cualquier momento y lugar.." },
+        { beneficio: "Ofrece protección al contacto con bacterias." },
+        { beneficio: "Combate el mal aliento y ofrece protección en cualquier momento y lugar." },
         { beneficio: "Siente tu aliento fresco por más tiempo." },
         { beneficio: "Su tamaño es práctico y fácil de usar." },
         { beneficio: "Uso diario. Excelente rendimiento : 100 usos." },
@@ -220,7 +219,7 @@ export const Blanqueamiento = {
     prefijo: "",
     nombre: "LUMINOUS WHITE",
     sufijo: "",
-    subTitulo: "Un tono más blanco en una semana*",
+    subTitulo: "Un tono más blanco en una semana",
     informacion: "",
     tituloSec: "beneficios",
     beneficios: [
@@ -359,7 +358,7 @@ export const Blanqueamiento = {
       nombre: "Enjuague",
       sufijo: "",
       subTitulo: "Sonrisa brillante, boca fresca.",
-      informacion: "Ayuda a mantener el blanco natural de los dientes y refresca el aliento",
+      informacion: "Ayuda a mantener el blanco natural de los dientes y refresca el aliento.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Asegura una sonrisa brillante y una boca siempre fresca." },
@@ -416,7 +415,7 @@ export const Natural = {
       prefijo: "",
       nombre: "DETOX - COCO & JENGIBRE",
       sufijo: "",
-      subTitulo: `Protege tu sonrisa & llénala de vida.`,
+      subTitulo: `Protege tu sonrisa & llénala de vida`,
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
@@ -442,7 +441,7 @@ export const Natural = {
       beneficios: [
         { beneficio: "Los científicos de Colgate, después de años de investigación, han combinado el carbón activado y la menta, en una exclusiva fórmula con espuma activa que ayuda a eliminar las impurezas* y proteger tus dientes." },
       ],
-      extra: "* Con cepillado regular.",
+      extra: "* Con el cepillado regular.",
       productos: []
     },
     {
@@ -493,7 +492,7 @@ export const Natural = {
       nombre: "ZERO HIERBABUENA",
       sufijo: "",
       subTitulo: "",
-      informacion: "Siéntete confiado y seguro dejando tu boca saludable con la crema dental Colgate Zero Hierbabuena con sabor a 100% natural.",
+      informacion: "Siéntete confiado y seguro dejando tu boca saludable con la crema dental Colgate Zero Hierbabuena con sabor 100% natural.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Con 0% de saborizantes, endulzantes, conservadores y colorantes artificiales. Vegana y libre de gluten." },
@@ -512,13 +511,13 @@ export const Natural = {
       prefijo: "",
       nombre: "Pro Planet Whitening",
       sufijo: "",
-      subTitulo: "Sé parte del cambio con el innovador cepillo de dientes Colgate Pro Planet, elaborado con 80% menos de plástico *.",
+      subTitulo: "Sé parte del cambio con el innovador cepillo de dientes Colgate Pro Planet, elaborado con 80% menos de plástico*",
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Contiene un mango de aluminio de larga duración" },
+        { beneficio: "Contiene un mango de aluminio de larga duración." },
         { beneficio: "Cabeza reemplazable con cerdas pulidoras y blanqueadoras que remueven las manchas, para una sonrisa más brillante." },
-        { beneficio: "Diseñado para limpiar partes de la boca, que otros cepillos no pueden alcanzar**" },
+        { beneficio: "Diseñado para limpiar partes de la boca, que otros cepillos no pueden alcanzar**." },
         { beneficio: "Limpia los dientes, lengua, mejillas y encías." },
       ],
       extra: "* vs. cepillo de dientes ordinario. ** vs. otros cepillos planos ordinario.",
@@ -537,9 +536,10 @@ export const Natural = {
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Mango elaborado con bambú 100% natural - 100% Biodegradable " },
-        { beneficio: "El bambú que usamos es elaborado de forma responsable, usando métodos de cultivos sostenibles Empaque de cartón reciclable" },
+        { beneficio: "El bambú que usamos es elaborado de forma responsable, usando métodos de cultivos sostenibles" },
+        { beneficio: "Empaque de cartón reciclable" },
         { beneficio: "Mango cubierto con ingredientes naturales para prevenir humedad" },
-        { beneficio: "Las cerdas son suaves, con infusión de carbón y sales de bambú* para una limpieza efectiva" },
+        { beneficio: "Las cerdas son suaves, con infusión de carbón y sales de bambú para una limpieza efectiva" },
       ],
       extra: "",
       productos: []
@@ -560,9 +560,9 @@ export const Familiar = {
     informacion: "",
     tituloSec: "BENEFICIOS:",
     beneficios: [
-      { beneficio: "Extra blancura" },
-      { beneficio: "Protección anticaries" },
-      { beneficio: "Aliento fresco" },
+      { beneficio: "Extra blancura." },
+      { beneficio: "Protección anticaries." },
+      { beneficio: "Aliento fresco." },
     ],
     extra: "",
     productos: []
@@ -581,9 +581,9 @@ export const Familiar = {
       informacion: "Su fórmula con fluoruro activo penetra en sus dientes para retener el calcio natural haciéndolos tan fuertes como puedan ser.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Ayuda a combatir las caries, inclusoentre los dientes" },
-        { beneficio: "Fortalece y limpia lo dientes" },
-        { beneficio: "Delicioso sabor refrescante" },
+        { beneficio: "Ayuda a combatir las caries, incluso entre los dientes." },
+        { beneficio: "Fortalece y limpia lo dientes." },
+        { beneficio: "Delicioso sabor refrescante." },
       ],
       extra: "",
       productos: []
@@ -597,7 +597,7 @@ export const Familiar = {
       nombre: "MENTA ORIGINAL",
       sufijo: "",
       subTitulo: "¡Limpieza profunda y triple protección!",
-      informacion: "Con la Crema Dental Colgate Triple Acción protege tu salud bucal y la de toda tu familia, bríndandoles la confianza que necesitan",
+      informacion: "Con la Crema Dental Colgate Triple Acción protege tu salud bucal y la de toda tu familia, bríndandoles la confianza que necesitan.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Su poderosa fórmula anticaries ayuda a eliminar las pequeñas bacterias que se encuentran entre las mejillas, dientes y lengua dejando una sensación totalmente refrescante en tu boca por varias horas." },
@@ -617,8 +617,8 @@ export const Familiar = {
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "ofrece multiprotección para una sonrisa extraordinaria con su formula con extra micro-partículas pulidoras para dientes más blancos y para la protección de tu salud bucal y la de toda tu familia." },
-        { beneficio: "Obtén triple beneficio: Protección, Xtra Blancura, y Frescura." },
+        { beneficio: "ofrece multiprotección para una sonrisa extraordinaria con su fórmula con extra micro-partículas pulidoras para dientes más blancos y para la protección de tu salud bucal y la de toda tu familia." },
+        { beneficio: "Obtén triple beneficio: Protección, Extra Blancura, y Frescura." },
       ],
       extra: "",
       productos: []
@@ -636,7 +636,7 @@ export const Familiar = {
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Micro - cristales que brinda una sensación de frescura de larga duración y protección de tu salud bucal y la de toda tu familia." },
-        { beneficio: "Obtén triple beneficio: Protección, Blancura, y Extra Frescura*." },
+        { beneficio: "Obtén triple beneficio: Protección, Blancura, y Extra Frescura." },
       ],
       extra: "",
       productos: []
@@ -650,11 +650,11 @@ export const Familiar = {
       nombre: "SOFT MINT",
       sufijo: "",
       subTitulo: "",
-      informacion: "Colgate Plax Soft Mint mata los gérmenes que causan la gingivitis, la placa bacteriana y el mal aliento hasta por 12 horas.",
+      informacion: "Colgate Plax Soft Mint elimina los gérmenes que causan la gingivitis, la placa bacteriana y el mal aliento hasta por 12 horas.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Ayuda a reducir hasta el 99% de los gérmenes" },
-        { beneficio: "Aliento fresco" },
+        { beneficio: "Ayuda a reducir hasta el 99% de los gérmenes." },
+        { beneficio: "Aliento fresco." },
       ],
       extra: "",
       productos: []
@@ -671,9 +671,9 @@ export const Familiar = {
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Ayuda a remover delicadamente las manchas a revelar el blanco natural de los dientes" },
-        { beneficio: "Efectiva remoción de la placa bacteriana" },
-        { beneficio: "Refresca el aliento" },
+        { beneficio: "Ayuda a remover delicadamente las manchas a revelar el blanco natural de los dientes." },
+        { beneficio: "Efectiva remoción de la placa bacteriana." },
+        { beneficio: "Refresca el aliento." },
       ],
       extra: "",
       productos: []
@@ -688,15 +688,15 @@ export const Sensibilidad = {
     img: imgSensibilidad.cabecera,
     tituloSuperior: "Colgate Sensitive",
     prefijo: "",
-    nombre: "PRO-ALIVIO",
+    nombre: "PRO-ALIVIO\u2122",
     sufijo: "",
-    subTitulo: "Alivio intantáneo y duradero de la sensibilidad.",
+    subTitulo: "Alivio intantáneo y duradero de la sensibilidad",
     informacion: "",
     tituloSec: "BENEFICIOS:",
     beneficios: [
-      { beneficio: "Exclusiva fórmula Pro-Argin" },
-      { beneficio: "Alivio Instantáneo (Con aplicación directa)" },
-      { beneficio: "Alivio duradero (Con cepillado diario)" },
+      { beneficio: "Exclusiva fórmula Pro-Argin\u2122." },
+      { beneficio: "Alivio Instantáneo (Con aplicación directa)." },
+      { beneficio: "Alivio duradero (Con cepillado diario)." },
     ],
     extra: "",
     productos: []
@@ -707,16 +707,16 @@ export const Sensibilidad = {
       id: 1,
       tipo: "producto",
       img: imgSensibilidad.producto.prodSensibilidad_01,
-      tituloSuperior: "Colgate Sensitive Pro-Alivio",
+      tituloSuperior: "Colgate Sensitive Pro-Alivio\u2122",
       prefijo: "",
       nombre: "REAL WHITE",
       sufijo: "",
-      subTitulo: "Alivio instantáneo* y duradero** de la sensibilidad más blanqueadora.",
+      subTitulo: "Alivio instantáneo* y duradero** de la sensibilidad más blanqueadora",
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Exclusiva fórmula Pro-Argin \u2122" },
-        { beneficio: "Fórmula de baja abrasión suave y elimina eficazmente las manchas,ayudando a restablecer la blancura natural de los dientes" },
+        { beneficio: "Exclusiva fórmula Pro-Argin\u2122." },
+        { beneficio: "Fórmula de baja abrasión suave y elimina eficazmente las manchas, ayudando a restablecer la blancura natural de los dientes." },
       ],
       extra: "* Con aplicación directa **Con un cepillado diario",
       productos: []
@@ -725,7 +725,7 @@ export const Sensibilidad = {
       id: 2,
       tipo: "producto",
       img: imgSensibilidad.producto.prodSensibilidad_02,
-      tituloSuperior: "Colgate Sensitive Pro-Alivio",
+      tituloSuperior: "Colgate Sensitive Pro-Alivio\u2122",
       prefijo: "",
       nombre: "REPARACIÓN COMPLETA",
       sufijo: "",
@@ -733,10 +733,10 @@ export const Sensibilidad = {
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Exclusiva fórmula Pro-Argin \u2122" },
-        { beneficio: "Su fórmula sella los túbulos expuestos para el alivio instantáneo y duradero de la sensibilidad" },
-        { beneficio: "Con el uso regular, el zinc ayuda a fortalecer la encía para reducir la recesión que exponen los túbulos de los dientes que generan |a sensibilidad." },
-        { beneficio: "Clínicamente comprobado" },
+        { beneficio: "Exclusiva fórmula Pro-Argin\u2122." },
+        { beneficio: "Su fórmula sella los túbulos expuestos para el alivio instantáneo y duradero de la sensibilidad." },
+        { beneficio: "Con el uso regular, el zinc ayuda a fortalecer la encía para reducir la recesión que exponen los túbulos de los dientes que generan la sensibilidad." },
+        { beneficio: "Clínicamente comprobado." },
       ],
       extra: "* Con aplicación directa, masajeando cada diente sensible durante 1 minuto.",
       productos: []
@@ -747,15 +747,15 @@ export const Sensibilidad = {
       img: imgSensibilidad.producto.prodSensibilidad_03,
       tituloSuperior: "Colgate Sensitive",
       prefijo: "",
-      nombre: "PRO-ALIVIO",
+      nombre: "PRO-ALIVIO\u2122",
       sufijo: "",
-      subTitulo: "ORIGINAL",
-      informacion: "Alivio instantáneo* y duradero** de la sensibilidad",
+      subTitulo: "Original",
+      informacion: "Alivio instantáneo* y duradero** de la sensibilidad.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Exclusiva fórmula Pro-Argin \u2122" },
+        { beneficio: "Exclusiva fórmula Pro-Argin\u2122." },
       ],
-      extra: "* Con aplicación directa **Con un cepillado diario",
+      extra: "* Con aplicación directa **Con un cepillado diario.",
       productos: []
     },
     {
@@ -770,9 +770,9 @@ export const Sensibilidad = {
       informacion: "Su fórmula ayuda a aliviar la sensibilidad del diente y un sistema blanqueador que ayuda a combatir la formación del sarro y remover suavemente las manchas dejando sus dientes más blancos.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Sabor refrescante" },
-        { beneficio: "Ayuda a remover manchas" },
-        { beneficio: "Protección comprobada" },
+        { beneficio: "Sabor refrescante." },
+        { beneficio: "Ayuda a remover manchas." },
+        { beneficio: "Protección comprobada." },
       ],
       extra: "",
       productos: []
@@ -781,7 +781,7 @@ export const Sensibilidad = {
       id: 5,
       tipo: "producto",
       img: imgSensibilidad.producto.prodSensibilidad_06,
-      tituloSuperior: "Colgate Sensitive Pro-Alivio",
+      tituloSuperior: "Colgate Sensitive Pro-Alivio\u2122",
       prefijo: "",
       nombre: "INMEDIATO",
       sufijo: "",
@@ -790,7 +790,7 @@ export const Sensibilidad = {
       tituloSec: "",
       beneficios: [
         { beneficio: "Fórmula clínicamente comprobada y desarrollada con el poder de la tecnología de arginina para una acción inmediata y eficaz contra las molestias causadas por la sensibilidad en los dientes." },
-        { beneficio: "Con el uso regular, se crea una barrera de larga duración que actúa como un escudo protector contra la sensibilidad dental" },
+        { beneficio: "Con el uso regular, se crea una barrera de larga duración que actúa como un escudo protector contra la sensibilidad dental." },
       ],
       extra: "",
       productos: []
@@ -799,7 +799,7 @@ export const Sensibilidad = {
       id: 6,
       tipo: "producto",
       img: imgSensibilidad.producto.prodSensibilidad_05,
-      tituloSuperior: "Colgate Sensitive Pro-Alivio",
+      tituloSuperior: "Colgate Sensitive Pro-Alivio\u2122",
       prefijo: "",
       nombre: "INMEDIATO ENCÍAS",
       sufijo: "",
@@ -818,6 +818,7 @@ export const Sensibilidad = {
         id: 7,
         tipo: "imagenes",
         tituloSec: "",
+        nombre: "",
         productos: [
             {
                 tituloSuperior: "Colgate SlimSoft",
@@ -849,7 +850,7 @@ export const Infantil = {
     prefijo: "",
     nombre: "MINIONS PARA NIÑOS",
     sufijo: "",
-    subTitulo: "Combate las caries y protege el esmalte con los productos infantiles Colgate Minions!",
+    subTitulo: "Combate las caries y protege el esmalte con los productos infantiles Colgate Minions",
     informacion: "",
     tituloSec: "BENEFICIOS:",
     beneficios: [
@@ -874,11 +875,11 @@ export const Infantil = {
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Protección contra las caries, clínicamente probado" },
-        { beneficio: "Protección del esmalte que fortalece y protege los dientes" },
-        { beneficio: "Gel con delicioso sabor a tutti-frutti" },
-        { beneficio: "Con flúor para niños" },
-        { beneficio: "Viene en un cómodo tubo que es fácil de usar" },
+        { beneficio: "Protección contra las caries, clínicamente probado." },
+        { beneficio: "Protección del esmalte que fortalece y protege los dientes." },
+        { beneficio: "Gel con delicioso sabor a tutti-frutti." },
+        { beneficio: "Con flúor para niños." },
+        { beneficio: "Viene en un cómodo tubo que es fácil de usar." },
       ],
       extra: "",
       productos: []
@@ -895,10 +896,10 @@ export const Infantil = {
       informacion: "",
       tituloSec: "BENEFICIOS:",
       beneficios: [
-        { beneficio: "Protección contra las caries clínicamente probado" },
-        { beneficio: "Protección del esmalte que fortalece y protege los dientes" },
-        { beneficio: "Con los personajes de Batman y la Mujer Maravilla que alientan a los niños a cepillarse" },
-        { beneficio: "Viene en un cómodo tubo que es fácil de usar" },
+        { beneficio: "Protección contra las caries clínicamente probado." },
+        { beneficio: "Protección del esmalte que fortalece y protege los dientes." },
+        { beneficio: "Con los personajes de Batman y la Mujer Maravilla que alientan a los niños a cepillarse." },
+        { beneficio: "Viene en un cómodo tubo que es fácil de usar." },
       ],
       extra: "",
       productos: []
@@ -911,13 +912,13 @@ export const Infantil = {
       prefijo: "",
       nombre: "MY FIRST",
       sufijo: "",
-      subTitulo: "sin flúor",
+      subTitulo: "Sin flúor",
       informacion: "Es necesario brindar una protección dental a los más pequeños del hogar para evitar el desarrollo de enfermedades; con la Pasta Dental Colgate sin fluor podrás cepillar sus primeros y pequeños dientes desde los 6 hasta los 24 meses de edad.",
       tituloSec: "BENEFICIOS:",
       beneficios: [
         { beneficio: "Su fórmula es libre de flúor, podrás utilizarla con confianza y sin preocuparte por ocasionarle algún problema si llega a comerla por accidente." },
         { beneficio: "Tiene un suave y delicioso sabor a fruta para que tu hijo la disfrute, está libre de conservadores y colorantes artificiales." },
-        { beneficio: "Su presentación de 50 gr (40 ml) es ideal para que la lleves siempre en tu pañalers." },
+        { beneficio: "Su presentación de 50 gr (40 ml) es ideal para que la lleves siempre en tu pañalera." },
       ],
       extra: "* Recomendado para niños de 0 a 2 años.",
       productos: []
@@ -926,7 +927,7 @@ export const Infantil = {
       id: 4,
       tipo: "producto",
       img: imgInfantil.producto.prodInfantil_04,
-      tituloSuperior: "Colgate Smiles",
+      tituloSuperior: "Colgate",
       prefijo: "",
       nombre: "KIDS",
       sufijo: "",
@@ -943,6 +944,7 @@ export const Infantil = {
         id: 5,
         tipo: "imagenes",
         tituloSec: "",
+        nombre: "",
         productos: [
             {
                 tituloSuperior: "Colgate Smiles",
@@ -973,7 +975,7 @@ export const Infantil = {
       img: imgInfantil.producto.prodInfantil_06,
       tituloSuperior: "Colgate",
       prefijo: "",
-      nombre: "PLAX MINIONS",
+      nombre: "PLAX KIDS - MINIONS",
       sufijo: "",
       subTitulo: "",
       informacion: "Enjuague bucal con flúor que ayuda a fortalecer el esmalte y brinda protección anticaries para los niños.",

@@ -7,3 +7,8 @@
     align-items: center;
     align-content: center;
 }
+
+.menuProductoIdeal a{
+    width: 280px;
+    height: 280px;
+}

@@ -3,11 +3,15 @@ import NavBar from '../Components/Home/NavBar';
 import ImagenConsejo3 from '../Components/MejoraTuSonrisa/ImagenConsejo3';
 import ImgText from '../Components/MejoraTuSonrisa/ImgText';
 import Footer from '../Components/ProductoIdeal/Footer';
+import Video from '../Components/Video';
+import urlVideo1 from '../img/Video/ConsejosCepillado.mp4';
 import { Consejos_5 } from '../Constants/Consejos';
 import { btnConsejos, consejos } from '../Constants/Images';
 import '../css/MejoraTuSonrisa.css';
 
 const MejoraTuSonrisa = () => {
+
+  // const [reproducir, setReproducir] = useState(false);
 
   const scrollToProduct = (id) => {
 
@@ -17,6 +21,19 @@ const MejoraTuSonrisa = () => {
       behavior: 'smooth'
     });
   }
+
+  // useEffect(() => {
+  //   window.onscroll = function () {
+  //     var y = window.scrollX;
+  //     console.log(y);
+
+  //     if(y >= 1900){
+  //       // console.log(true);
+  //       setReproducir(true);
+  //     }
+  //     // document.getElementById('y').innerText = y;
+  //   };
+  // });
 
   return (
     <div className="MejoraTuSonrisa">
@@ -38,6 +55,7 @@ const MejoraTuSonrisa = () => {
             <h1>CEPILLA TUS DIENTES</h1>
             <p>Una boca sana comienza con un <i>correcto cepillado</i></p>
           </div>
+
           <div className="seccion1">
             <div className="seccion1C1">
               <img className="imgConsejo1" src={consejos.Consejos_1_01} alt="" />
@@ -49,6 +67,9 @@ const MejoraTuSonrisa = () => {
               <div className="text">
                 <p>Cepillando tus dientes 3 veces al día durante 2 minutos lograrás controlar la placa bacteriana y mantener una sonrisa sana</p>
               </div>
+            </div>
+            <div>
+              <Video urlVideo={urlVideo1} widthVideo={720} heightVideo={405} autoPlayVideo={false} />
             </div>
           </div>
         </div>

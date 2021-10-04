@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home } from '../../Constants/Images';
+import { ImgHome } from '../../Constants/Images';
 import { RoutersLinks } from '../../Constants/RoutersLinks';
 import '../../css/NavBar.css';
 
@@ -7,10 +7,10 @@ const NavBar = () => {
     return (
         <div className="NavBar">
             <a href={RoutersLinks.home}>
-                <img className="imgLogoColgate" src={Home.LogoColgate} alt="LogoColgate" />
+                <img className="imgLogoColgate" src={ImgHome.LogoColgate} alt="LogoColgate" />
             </a>
             <a href={`${RoutersLinks.home}#menu`}>
-                <img className="imgMenu" src={Home.Menu} alt="Menu" />
+                <img className="imgMenu" src={ImgHome.Menu} alt="Menu" />
             </a>
         </div>
     );
