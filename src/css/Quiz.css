@@ -93,6 +93,12 @@
     justify-content: center;
 }
 
+
+.sAnswer .scoreAnswer .infoResult {
+    position: relative;
+    z-index: 1000;
+}
+
 .sAnswer .scoreAnswer .valueScore h1 {
     font-family: "HeavyItalic";
     font-size: 5em;
@@ -100,15 +106,15 @@
 }
 
 .sAnswer .scoreAnswer.v1 .valueScore h1 {
-    color: #00a671
+    color: #00a671;
 }
 
 .sAnswer .scoreAnswer.v2 .valueScore h1 {
-    color: #FF6900
+    color: #FF6900;
 }
 
 .sAnswer .scoreAnswer.v3 .valueScore h1 {
-    color: var(--color-Text)
+    color: var(--color-Text);
 }
 
 .sAnswer .scoreAnswer h3.titleScore {
@@ -123,6 +129,15 @@
     font-size: 2em;
     color: var(--color-2Text);
     /* margin-bottom: 5em; */
+}
+
+.sAnswer .scoreAnswer .container_svg_lottie {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
 /* .questions h1{

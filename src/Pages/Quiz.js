@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import NavBar from '../Components/Home/NavBar';
 import Footer from '../Components/ProductoIdeal/Footer';
 import Results from '../Components/Quiz.js/Results';
+import Aplausos from '../img/Lottie/aplausos.json';
+import Confetti from '../img/Lottie/confetti.json';
 import { ImgHome } from '../Constants/Images';
 import { Questions } from '../Constants/Preguntas';
 import '../css/Quiz.css';
@@ -80,6 +82,7 @@ const Quiz = () => {
                 titleResults="¡Felicitaciones!"
                 mensaje="Eres un experto en cuidado oral"
                 mensajeB="¡CONTAGIA TU SONRISA!"
+                lottieJson={Confetti}
               />
             </div>
           ) : score <= 4 && score >= 3 ? (
@@ -89,6 +92,7 @@ const Quiz = () => {
                 titleResults="¡Muy bien!"
                 mensaje="Sigamos aprendiendo juntos"
                 mensajeB=""
+                lottieJson={Aplausos}
               />
             </div>
           ) : (
@@ -98,6 +102,7 @@ const Quiz = () => {
                 titleResults=""
                 mensaje="Sigamos aprendiendo juntos, Visita nuestra sección de consejos"
                 mensajeB=""
+                lottieJson={undefined}
               />
             </div>
           )}
