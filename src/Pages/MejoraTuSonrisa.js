@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from '../Components/Home/NavBar';
 import ImagenConsejo3 from '../Components/MejoraTuSonrisa/ImagenConsejo3';
 import ImgText from '../Components/MejoraTuSonrisa/ImgText';
@@ -22,18 +22,22 @@ const MejoraTuSonrisa = () => {
     });
   }
 
-  // useEffect(() => {
-  //   window.onscroll = function () {
-  //     var y = window.scrollX;
-  //     console.log(y);
+  useEffect(() => {
+    window.scroll({
+        top: window.screen.width,
+        left: 0
+    });
 
-  //     if(y >= 1900){
-  //       // console.log(true);
-  //       setReproducir(true);
-  //     }
-  //     // document.getElementById('y').innerText = y;
-  //   };
-  // });
+    // const noScroll = () => {
+    //     window.scrollTo(window.scrollX, window.screen.width);
+    //     // console.log(window.location.hash);
+    // }
+
+    // setTimeout(() => {
+    //     window.addEventListener('scroll', noScroll);
+    // }, 500)
+
+}, [])
 
   return (
     <div className="MejoraTuSonrisa">

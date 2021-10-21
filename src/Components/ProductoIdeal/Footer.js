@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HiChevronDoubleLeft, HiChevronDoubleRight } from 'react-icons/hi';
+import { HashRouter, Link } from 'react-router-dom';
 import { Botones_Listones } from '../../Constants/Images';
 import { RoutersLinks } from '../../Constants/RoutersLinks';
 import '../../css/Footer.css';
@@ -67,30 +68,33 @@ const Footer = ({ limite, activate, visible }) => {
       </div>
 
       <div className={visible ? "footerMenu" : "noVisible"}>
-        <a href={RoutersLinks.multibeneficios} className={activate === "Multibeneficios" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[0]}*/}
-          <img src={Botones_Listones.Multibeneficios.btn} alt="" />
-          <p>Multibeneficios</p>
-        </a>
-        <a href={RoutersLinks.blanqueamiento} className={activate === "Blanqueamiento" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[1]}*/}
-          <img src={Botones_Listones.Blanqueamiento.btn} alt="" />
-          <p>Blanqueamiento</p>
-        </a>
-        <a href={RoutersLinks.saludNatural} className={activate === "Natural" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[2]}*/}
-          <img src={Botones_Listones.SaludNatural.btn} alt="" />
-          <p>Salud Natural</p>
-        </a>
-        <a href={RoutersLinks.cuidadoFamiliar} className={activate === "Familiar" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[3]}*/}
-          <img src={Botones_Listones.CuidadoFamiliar.btn} alt="" />
-          <p>Cuidado Familiar</p>
-        </a>
-        <a href={RoutersLinks.sensibilidad} className={activate === "Sensibilidad" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[4]}*/}
-          <img src={Botones_Listones.Sensibilidad.btn} alt="" />
-          <p>Sensibilidad</p>
-        </a>
-        <a href={RoutersLinks.infantil} className={activate === "Infantil" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[5]}*/}
-          <img src={Botones_Listones.Infantil.btn} alt="" />
-          <p>Cuidado de los mas pequeños</p>
-        </a>
+        <HashRouter>
+          <Link to={RoutersLinks.multibeneficios} className={activate === "Multibeneficios" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[0]}*/}
+            <img src={Botones_Listones.Multibeneficios.btn} alt="" />
+            <p>Multibeneficios</p>
+          </Link>
+          <Link to={RoutersLinks.blanqueamiento} className={activate === "Blanqueamiento" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[1]}*/}
+            <img src={Botones_Listones.Blanqueamiento.btn} alt="" />
+            <p>Blanqueamiento</p>
+          </Link>
+          <Link to={RoutersLinks.saludNatural} className={activate === "Natural" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[2]}*/}
+            <img src={Botones_Listones.SaludNatural.btn} alt="" />
+            <p>Salud Natural</p>
+          </Link>
+          <Link to={RoutersLinks.cuidadoFamiliar} className={activate === "Familiar" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[3]}*/}
+            <img src={Botones_Listones.CuidadoFamiliar.btn} alt="" />
+            <p>Cuidado Familiar</p>
+          </Link>
+          <Link to={RoutersLinks.sensibilidad} className={activate === "Sensibilidad" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[4]}*/}
+            <img src={Botones_Listones.Sensibilidad.btn} alt="" />
+            <p>Sensibilidad</p>
+          </Link>
+          <Link to={RoutersLinks.infantil} className={activate === "Infantil" ? `menuOpciones activate` : `menuOpciones noActivate`}> {/* ${activate[5]}*/}
+            <img src={Botones_Listones.Infantil.btn} alt="" />
+            <p>Cuidado de los mas pequeños</p>
+          </Link>
+        </HashRouter>
+
       </div>
 
       <div className={`footerBotones ${btnAvanzar}`}>

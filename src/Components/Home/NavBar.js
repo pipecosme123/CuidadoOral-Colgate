@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ImgHome } from '../../Constants/Images';
 import { RoutersLinks } from '../../Constants/RoutersLinks';
 import '../../css/NavBar.css';
@@ -6,12 +7,12 @@ import '../../css/NavBar.css';
 const NavBar = () => {
     return (
         <div className="NavBar">
-            <a href={RoutersLinks.home}>
+            <Link to={RoutersLinks.home} className={window.location.hash === "#/MundoInfantil" ? "noVisibleNavBar" : ""}>
                 <img className="imgLogoColgate" src={ImgHome.LogoColgate} alt="LogoColgate" />
-            </a>
-            <a href={`${RoutersLinks.home}#menu`}>
+            </Link>
+            <Link to={`${RoutersLinks.home}#menu`}>
                 <img className="imgMenu" src={ImgHome.Menu} alt="Menu" />
-            </a>
+            </Link>
         </div>
     );
 };

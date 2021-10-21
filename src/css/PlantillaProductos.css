@@ -141,6 +141,10 @@
     display: none;
 }
 
+.noVisibleNavBar {
+    opacity: 0;
+}
+
 .barraBeneficios {
     width: max-content;
     margin: 1em auto 0;

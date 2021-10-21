@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBar from '../Components/Home/NavBar';
 import Footer from '../Components/ProductoIdeal/Footer';
 import Results from '../Components/Quiz.js/Results';
@@ -17,19 +17,37 @@ const Quiz = () => {
     new Array(Questions.length).fill(false)
   );
 
+  const scrollView = () => {
+    window.scroll({
+      top: window.screen.width,
+      left: 0
+    });
+
+    const noScroll = () => {
+      window.scrollTo(window.scrollX, window.screen.width);
+      // console.log(window.location.hash);
+    }
+
+    setTimeout(() => {
+      window.addEventListener('scroll', noScroll);
+    }, 500)
+  }
+
+  useEffect(() => {
+    scrollView();
+
+  }, [])
+
   const answerQuestions = (isCorrect, index) => {
 
     if (visibleAnswer[index] === false) {
       setAnswer(answer + 1);
-      // console.log( "preguntas contestadas ",  answer);
 
       if (isCorrect) {
         setScore(score + 1);
-        // console.log(score);
       }
 
       handleOnChange(index);
-      // console.log(visibleAnswer[index]);
     }
 
   }
@@ -74,7 +92,9 @@ const Quiz = () => {
           < Footer limite={Questions.length} visible={false} />
         </div>
       ) : (
+
         <div className="sAnswer">
+          {scrollView()}
           {score === 5 ? (
             <div className="scoreAnswer v1">
               <Results
