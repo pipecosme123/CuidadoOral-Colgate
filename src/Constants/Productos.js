@@ -100,26 +100,26 @@ export const Multibeneficios = {
       extra: "* Hasta 12h de protección contra las bacterias y el mal aliento con el uso continuo por 4 semanas",
       productos: []
     },
-    {
-      id: 5,
-      tipo: "producto",
-      img: imgMultibeneficios.producto.prodMultibeneficios_05,
-      tituloSuperior: "Colgate 360°",
-      prefijo: "",
-      nombre: "ADVANCED TOTAL 12",
-      sufijo: "",
-      subTitulo: "",
-      informacion: "Limpieza saludable en toda tu boca limpiador de lengua y mejillas con diseño innovador, remueve bacterias en cuatro áreas:",
-      tituloSec: "",
-      beneficios: [
-        { beneficio: "Dientes." },
-        { beneficio: "Lengua." },
-        { beneficio: "Mejillas." },
-        { beneficio: "Encías." },
-      ],
-      extra: "",
-      productos: []
-    },
+    // {
+    //   id: 5,
+    //   tipo: "producto",
+    //   img: imgMultibeneficios.producto.prodMultibeneficios_05,
+    //   tituloSuperior: "Colgate 360°",
+    //   prefijo: "",
+    //   nombre: "ADVANCED TOTAL 12",
+    //   sufijo: "",
+    //   subTitulo: "",
+    //   informacion: "Limpieza saludable en toda tu boca limpiador de lengua y mejillas con diseño innovador, remueve bacterias en cuatro áreas:",
+    //   tituloSec: "",
+    //   beneficios: [
+    //     { beneficio: "Dientes." },
+    //     { beneficio: "Lengua." },
+    //     { beneficio: "Mejillas." },
+    //     { beneficio: "Encías." },
+    //   ],
+    //   extra: "",
+    //   productos: []
+    // },
     {
       id: 6,
       tipo: "producto",

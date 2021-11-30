@@ -48,7 +48,7 @@ import btnMultibeneficios_03 from '../img/Productos/Multibeneficios/btnMultibene
 import prodMultibeneficios_03 from '../img/Productos/Multibeneficios/multibeneficios_07.png';
 import btnMultibeneficios_04 from '../img/Productos/Multibeneficios/btnMultibeneficios_06.jpg';
 import prodMultibeneficios_04 from '../img/Productos/Multibeneficios/multibeneficios_06.png';
-import btnMultibeneficios_05 from '../img/Productos/Multibeneficios/btnMultibeneficios_05.jpg';
+// import btnMultibeneficios_05 from '../img/Productos/Multibeneficios/btnMultibeneficios_05.jpg';
 import prodMultibeneficios_05 from '../img/Productos/Multibeneficios/multibeneficios_05.png';
 import btnMultibeneficios_06 from '../img/Productos/Multibeneficios/btnMultibeneficios_04.jpg';
 import prodMultibeneficios_06 from '../img/Productos/Multibeneficios/multibeneficios_04.png';
@@ -239,7 +239,7 @@ export const imgMultibeneficios = {
         { "btn": btnMultibeneficios_02 },
         { "btn": btnMultibeneficios_03 },
         { "btn": btnMultibeneficios_04 },
-        { "btn": btnMultibeneficios_05 },
+        // { "btn": btnMultibeneficios_05 },
         { "btn": btnMultibeneficios_06 },
         { "btn": btnMultibeneficios_07 },
         { "btn": btnMultibeneficios_08 },
